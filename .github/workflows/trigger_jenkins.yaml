@@ -10,7 +10,7 @@ jobs:
     runs-on: self-hosted
     env:
       REPO_NAME: ${{ github.event.repository.name }}
-      ORG_NAME: ${{ github.event.organization.name }}
+      ORG_NAME: ${{ github.event.org.name }}
       JENKINS_ROOT: ${{ secrets.JENKINS_CONTROLLER_URL }}job/${{ secrets.JENKINS_TRIGGER_ROOT_FOLDER }}/job/${{ secrets.JENKINS_TRIGGER_ORG_FOLDER }}/job/
     steps:
     - name: trigger single Job
