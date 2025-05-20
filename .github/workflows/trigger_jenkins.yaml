@@ -2,9 +2,8 @@ name: Trigger Jenkins CI
 on:
   - push
   - pull_request
-         
- jobs:
-  # This workflow contains a single job called "trigger_jenkins"
+jobs:
+# This workflow contains a single job called "trigger_jenkins"
   trigger_jenkins:
     # The type of runner that the job will run on
     runs-on: jenkins-trigger
