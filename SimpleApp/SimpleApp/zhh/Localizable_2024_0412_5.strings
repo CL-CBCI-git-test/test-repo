@@ -1,0 +1,337 @@
+﻿/*
+  Localizable.strings
+  Localizable.stringsupdatedupdatednew
+    Localizable.strings
+    Localizable.strings
+      Localizable.strings  
+       Localizable.strings  
+	   Localizable.strings
+	    Localizable.strings   
+Localizable.strings   		c
+    Localizable.strings
+	Localizable.stringsnew
+	Localizable.strings  
+	Localizable.strings
+    Localizable.strings  ssdd
+  Localizable.strings  Localizable.strings  Localizable.stringsddffdcccddf
+    Localizable.strings  Localizable.strings  Localizable.strings
+  it’s
+
+  Created by Guobi Wu on 17/2/16.
+  Copyright © 2016 Autodesk. All rights reserved.
+*/
+
+"ErrorAlertOKButton"="好";
+"ErrorAlertOKButton"="好";ddff
+
+// Error
+"No Internet" = "無法連線至 BIM 360 Docs";
+"No Internet Reason" = "請檢查您的網路，然後重試。";
+
+"Authentication Failed" = "無法登入";
+"Authentication Failed Reason" = "使用者名稱或密碼無效，或者您的帳戶尚未訂閱 BIM 360 Docs。";
+"Invalid Account" = "無法登入";
+"Invalid Account Reason" = "對不起，您的帳戶無效。請聯繫專案管理員。";
+"Inactive Account Reason" = "您的帳戶處於非活動狀態。如果您認為您誤收了此訊息，請聯絡您的專案管理員。";
+
+"Request Data Failed" = "同步錯誤";
+"Request Data Failed Reason" = "伺服器上可能存在數據衝突，或者您沒有適當的許可權。";
+
+"Access Denied Failed"="拒絕存取失敗";
+"Access Denied (401) Failed Reason"="存取遭拒 （401） 失敗原因";
+
+"Get Session Token Failed"="取得階段作業記號失敗";
+"Get Session Token Failed Reason"="取得階段作業記號失敗的原因";
+
+// Login
+"Please Login" = "";
+"Please Login Reason" = "身份驗證已過期。請重新登錄。";
+
+// Need re-sign in
+"Sign In Title" = "登入";
+"Re-Sign In Reason" = "由於長時間沒有活動，您已被註銷。";
+
+
+// Project list
+"Select All" = "全選";
+"Select None" = "選取「無」";
+"All" = "都";
+"None" = "沒";
+"folders and files info" = "%@ 和 %@";
+"Options" = "選項";
+"By " = "被";
+"By Name" = "依名稱";
+"By Last Modified" = "依上次修改時間";
+"Name" = "名字";                    // Remove 'By'
+"Last Modified" = "上次修改時間";  // Remove 'By'
+
+"Edit" = "編輯";
+"Done" = "熟";
+"removeAllTitle" = "從裝置 移除";
+"Remove" = "除";
+"Tap docs to download or remove from device" = "點按要從裝置下載或移除的文件";
+"Download" = "下載";
+"Remove from device" = "從裝置移除";
+"removeAllQuestion" = "您確定要刪除選取的文件嗎？";
+"cannotRemoveTitle" = "無法從裝置移除";
+"cannotRemoveMessage" = "某些文件無法移除，因為您已設置為自動下載目前版本。";
+
+//thumbnail view
+"Open in" = "開啟於 ...";
+
+// left side panel
+"logout" = "登出";
+"logoutQuestion" = "您確定要登出嗎？";
+"No" = "不";
+"Yes" = "是";
+"OK" = "好";
+"Cancel" = "銷";
+"Back" = "後面";
+"LIBRARY"="圖書館";
+"SUPPORT"="撐";
+"Plans"="計劃";
+"Shop Drawings" = "施工圖";
+"Files"="檔案";
+"Getting Started"="開始";
+"Help"="助";
+"About"="大約";
+"Profile"="簡介";
+"Settings"="設定";
+"View Settings"="檢視 設定";
+"Sync"="同步";
+"Alerts"="警報";
+"Last sync,"="上次同步，";
+"Syncing..."="正在同步...";
+"Last updated"="上次更新時間";
+"connection_lost_error_msg"="沒有網際網路連線";
+
+// Util time change
+"util_moments_ago"="片刻前";
+"util_today_at"="今日 %@";
+"util_yesterday_at"="昨天 %@";
+
+// lmv viewer
+"open low version" = "有一個新版本可用。當您重新上線時下載更新版本。";
+"Can't open this document." = "無法開啟此文件。";
+"Load sheet unsuccessfully message" = "無法顯示此頁面";
+
+// Not enough storage
+"Ignore" = "忽略";
+"Settings" = "設定";
+"NotEnoughStorageTitle" = "儲存空間不足";
+"NotEnoughStorageSpace" = "沒有足夠的可用存儲空間來下載文檔。您可以在「設置」中管理存儲空間。";
+
+// Empty Folder Message.
+"This folder is empty" = "此資料夾是空的";
+"No plans message with linebreak" = "未新增任何計劃\n 到此專案";
+"No files message with linebreak" = "未加入任何檔案\n 到此專案";
+"No shop drawings message with linebreak" = "未新增任何施工圖\n 到此專案";
+
+// Issue list
+"current"="水流";
+"not current"="不是目前的";
+"Answered by: "="回答者：";
+"To: "="到：";
+"Created by: "="建立者：";
+"Issue #%d is not listed due to filters"="由於存在篩選，因此未列示問題 #%d";
+"The new issue is not listed due to filters"="由於篩選器，因此未列出新問題";
+"Reset Filters"="重置 篩選";
+"Dismiss"="黜";
+"Loading..."="載入中...";
+"Some issues failed to sync"="某些問題無法同步";
+"Updated at"="更新於";
+
+//  PushPin tooltip
+"Tap to place a new issue" = "點選以放置新問題";
+
+// SetsSetting
+"%@ Plans"="%@ 計劃";
+"Settings below will be applied across all projects and folders." = "以下設定將套用至所有專案和資料夾。";
+"Select what you’d like to download now. New sets will automatically download, based on your settings." = "選擇您要立即下載的內容。新版本會根據您的設定自動下載。";
+"Remove From Device" = "從裝置 移除";
+"Some docs are downloaded to your device. Do you want to remove or keep them?" = "某些文件會下載到您的設備。您要刪除還是保留它們？";
+"Keep" = "留";
+
+//3G warning based on global setting
+"On cellular network." = "在蜂窩網路上。";
+"Do you want to download now or wait until you are back on Wi-Fi?" = "您要立即下載還是等到重新使用Wi-Fi？";
+"Wait until I'm on Wi-Fi" = "等到我使用 Wi-Fi 時";
+"Download now" = "立即下載";
+
+// Switch Set or Version
+"Current Set"="最新系列";
+"V%d"="V%d";// show current version(for exzample: Version 1 or Version 2) on top bar
+"This is not the current version."="這不是當前版本。";
+
+// Set List
+"All Documents" = "所有檔案";
+
+// Issue status
+"open" = "開";
+"draft" = "稿";
+"answered" = "已回答";
+"closed" = "已關閉";
+"unresolved"="無法解決";
+
+// New Display ID
+"NEW" = "新";
+
+// Badge text
+"New"="新";
+"Updated"="已更新";
+
+//Issue detail form property IDs
+"ID" = "身份證";
+"Title" = "名";
+"Description" = "描述";
+"Pinned to" = "釘住到";
+"Author" = "作者";
+"Assigned to" = "已指派給";
+"Due Date" = "到期日";
+"Status" = "地位";
+"Updated At" = "更新於";
+"Created At" = "建立於";
+"Closed By" = "關閉者";
+"Closed At" = "關閉於";
+"Attachments" = "附件";
+"Comments" = "註解";
+"Official Response" = "官方回應";
+"Answered By" = "回答者";
+"Anwered Date" = "日期";
+
+"Save" = "救";
+"Create new issue as" = "將新問題建立為";
+"New Issue" = "新問題";
+"Issue #" = "發#";
+"Unspecified" = "未指定";
+"Tap to enter a title" = "點選以輸入標題";
+"Describe the issue or question" = "描述問題或疑問";
+"Provide an official response" = "提供官方回應";
+
+//Due date
+"Past due since" = "逾期自";
+"Past due yesterday" = "逾期昨日";
+"Due today" = "今天到期";
+"Due tomorrow" = "將於明天到期";
+"Due on" = "到期日";
+"Closed today" = "今日公休";
+"Closed yesterday" = "昨天關閉";
+"Closed on" = "關閉於";
+
+// Properties
+"Unknown Object Name" = "未知物件名稱";
+"Other" = "他";
+
+// About no permission
+"Welcome to BIM 360 Docs" = "歡迎使用 BIM 360 Docs";
+"Once documents have been shared with you, you’ll see them here" = "與您共用文件後，您將在此處看到它們";
+"Learn more" = "瞭解更多";
+"Nothing has been shared with you yet" = "尚未與您共用任何內容";
+
+//fix
+"Created by"="建立者";
+"on" = "在";
+"Answered by: %@" ="回答者： %@";
+"To: %@" = "至： %@";
+"Created by: %@ on %@" = "建立者： %@ on %@";
+"Answered by %@, %@" = "由 %@ 回答，%@";
+"Created by %@ on %@" = "由 %@ 於 % 建立@";
+"Closed by %@ on %@" = "由 %@ 關閉 %@";
+"Will be shown as answered by you" = "將顯示為由您回答";
+"Type your official response..." = "輸入您的官方回應...";
+"Mark as Closed" = "標記為已關閉";
+"Mark as Answered" = "標記為已回答";
+"Select a User" = "選取使用者";
+"MMM d" = "唰";
+"h:mm a"="H：毫米 A";
+"Show Errors"="顯示 錯誤";
+
+// Issue filters
+"Any Status"="任何狀態";
+"Anyone"="無論誰";
+"Assigned to me"="分配給我";
+"Assignee"="獲指派者";
+
+//NMIssuePagerViewController
+"Information"="消息";
+
+//NMAddIssueCommentView
+"Type to add a Comment" = "鍵入以加入註解...";
+"Select an Assignee" = "選取獲指派者";
+"No User" = "無使用者";
+// For issue location
+"Location" = "位置";
+"Tap to add location" = "點選以加入位置";
+
+// offline issue
+"Delete" = "刪除";
+"Retry" = "重試";
+"Discard Changes"="捨棄 變更";
+
+// Issue errors
+"Failed to Sync"="無法同步";
+
+//markup
+"Show Content" = "展示 內容"; // The content means issues and markups from the file.
+"Issues" = "問題";
+"Markups" = "標記";
+"Mark as Open" = "標記為開放";
+"Hide" = "藏";
+"Show" = "示";
+"%@ at %@" = "%@ 在 %@"; // somebody create a markup on a date.     Eg: "yan feng at Mar 4, 12:32 PM"
+"Close the markup" = "關閉標記";
+"Confirm markup to be close" = "標記關閉后，無法重新打開標記。您確定要關閉它嗎？";
+"Close" = "近"; // e.g. Cancel or Close
+"Failed to close this markup" = "無法關閉此標記";
+
+//deep link alert msg
+"Bad Link" = "此連結可能格式不正確或需要當前應用程式不支援的功能。";//unknown action/mode or missing parameters
+"Can't Open Link" = "無法開啟連結";
+"Network Unavailable" = "網路無法使用";
+"Network Unavailable Body" = "請檢查您的網路連接，然後再試一次。";
+"UI Busy" = "完成當前操作，重試。";//in editing mode or showing download settings
+"Can't View Issue" = "無法檢視問題";
+"Project Not Found" = "找不到專案";
+"Document Not Found" = "找不到文件";
+"Can't Load Document" = "無法載入文件";
+"Issue Not Found" = "找不到問題";
+"Can't Show Issue Pin" = "無法顯示問題圖釘";
+"Can't Show Issue Pin message"  = "由於目前的篩選設定或顯示的文件版本，此問題在此文件上不可見。";
+"No Description" = "無描述";
+
+//Issue Creator filters
+"Created by Me" = "由我建立";
+"Creator" = "創造者";
+"Created by %@" = "建立者 %@";
+"Select an Creator" = "選取建立者";
+"Specify a user" = "指定 使用者";
+
+// issue channel item , issue history ,event
+"Created this issue in %1$@ status and assigned to %2$@." = "已在 %1$@ 狀態下建立此問題，並指定給 %2$@。";
+"Created this issue in %1$@ status." = "已在 %1$@ 狀態下建立此問題。";
+"Reassigned this issue to %1$@." = "已將此問題重新指派給 %1$@。";
+"Changed status from %1$@ to %2$@." = "狀態已從 %1$@ 變更為 %2$@。";
+"Changed status from %1$@ to %2$@ with official response(reopened by %3$@ on %4$@):" = "狀態已從 %1$@ 變更為 %2$@，具有正式回應 （由 %3$@ 於 %4$@ 重新開啟）：";
+"Assigned back to %@." = "已指派回 %@。";
+"Changed status from %1$@ to %2$@ with official response(accepted by %3$@ on %4$@):" = "狀態已從 %1$@ 變更為 %2$@，具有正式回應 （由 %3$@ 於 %4$@ 接受）：";
+"no one" = "沒有人";
+"Changed status from %1$@ to %2$@ with official response(current):" = "已將狀態從 %1$@ 變更為 %2$@，並具有官方回應 （目前）：";
+//Add Photo
+"IssueDetail.Channel.AddPhoto.From Camera" = "從相機";
+"IssueDetail.Channel.AddPhoto.From Library" = "從圖書館";
+
+
+//Issue specify Assignee
+"Specify a user,role,or company" = "指定 使用者、角色或公司";
+"Assigned to %@" = "已指派給 %@";
+"No Filters" = "無過濾器";
+"View Options" = "檢視 選項";
+"Me" = "我";
+
+// Application Permissions
+"Can't Access %@" = "無法存取 %@";
+"Please enable %@ in this app's iOS settings." = "請在此應用程式的 iOS 設定中啟用 %@。";
+"Photos" = "圖片";
+"Camera" = "照相機";
+
+// New strings

@@ -1,0 +1,337 @@
+﻿/*
+  Localizable.strings
+  Localizable.stringsupdatedupdatednew
+    Localizable.strings
+    Localizable.strings
+      Localizable.strings  
+       Localizable.strings  
+	   Localizable.strings
+	    Localizable.strings   
+Localizable.strings   		c
+    Localizable.strings
+	Localizable.stringsnew
+	Localizable.strings  
+	Localizable.strings
+    Localizable.strings  ssdd
+  Localizable.strings  Localizable.strings  Localizable.stringsddffdcccddf
+    Localizable.strings  Localizable.strings  Localizable.strings
+  it’s
+
+  Created by Guobi Wu on 17/2/16.
+  Copyright © 2016 Autodesk. All rights reserved.
+*/
+
+"ErrorAlertOKButton"="OKEJ";
+"ErrorAlertOKButton"="OKEJ";ddff
+
+// Error
+"No Internet" = "Det går inte att ansluta till BIM 360 Docs";
+"No Internet Reason" = "Kontrollera ditt nätverk och försök igen.";
+
+"Authentication Failed" = "Det går inte att logga in";
+"Authentication Failed Reason" = "Användarnamnet eller lösenordet är ogiltigt eller så har ditt konto inte prenumererat på BIM 360 Docs.";
+"Invalid Account" = "Det går inte att logga in";
+"Invalid Account Reason" = "Ditt konto är tyvärr inte giltigt. Kontakta projektadministratören.";
+"Inactive Account Reason" = "Ditt konto är inte aktivt. Om du tror att du felaktigt har fått det här meddelandet kontaktar du projektadministratören.";
+
+"Request Data Failed" = "Fel vid synkronisering";
+"Request Data Failed Reason" = "Det kan finnas datakonflikter på servern eller så har du inte rätt behörighet.";
+
+"Access Denied Failed"="Åtkomst nekad misslyckades";
+"Access Denied (401) Failed Reason"="Åtkomst nekad (401) Orsak misslyckades";
+
+"Get Session Token Failed"="Det gick inte att hämta sessionstoken";
+"Get Session Token Failed Reason"="Orsak till att hämta sessionstoken misslyckades";
+
+// Login
+"Please Login" = "";
+"Please Login Reason" = "Autentiseringen har upphört att gälla. Logga in igen.";
+
+// Need re-sign in
+"Sign In Title" = "Logga in";
+"Re-Sign In Reason" = "Du har loggats ut på grund av att du inte har haft några aktiviteter på länge.";
+
+
+// Project list
+"Select All" = "Markera allt";
+"Select None" = "Välj ingen";
+"All" = "Alla";
+"None" = "Ingen";
+"folders and files info" = "%@ och % @";
+"Options" = "Alternativ";
+"By " = "Vid ";
+"By Name" = "Efter namn";
+"By Last Modified" = "Efter senast ändrad";
+"Name" = "Namn";                    // Remove 'By'
+"Last Modified" = "Senast ändrad";  // Remove 'By'
+
+"Edit" = "Redigera";
+"Done" = "Färdig";
+"removeAllTitle" = "Ta bort från enhet";
+"Remove" = "Avlägsna";
+"Tap docs to download or remove from device" = "Tryck på docs för att ladda ned eller ta bort från enheten";
+"Download" = "Ladda ned";
+"Remove from device" = "Ta bort från enhet";
+"removeAllQuestion" = "Vill du ta bort de valda dokumenten?";
+"cannotRemoveTitle" = "Kan inte ta bort från enheten";
+"cannotRemoveMessage" = "Vissa dokument kan inte tas bort eftersom du är konfigurerad för att automatiskt hämta den aktuella versionen.";
+
+//thumbnail view
+"Open in" = "Öppna i ...";
+
+// left side panel
+"logout" = "Logga ut";
+"logoutQuestion" = "Vill du logga ut?";
+"No" = "Nej";
+"Yes" = "Ja";
+"OK" = "OKEJ";
+"Cancel" = "Annullera";
+"Back" = "Tillbaka";
+"LIBRARY"="BIBLIOTEK";
+"SUPPORT"="STÖD";
+"Plans"="Planer";
+"Shop Drawings" = "Shop Ritningar";
+"Files"="ﬁler";
+"Getting Started"="Komma igång";
+"Help"="Hjälp";
+"About"="Om";
+"Profile"="Profil";
+"Settings"="Inställningar";
+"View Settings"="Visa inställningar";
+"Sync"="Synkronisering";
+"Alerts"="Varningar";
+"Last sync,"="Senaste synkroniseringen,";
+"Syncing..."="Synkronisering...";
+"Last updated"="Senast uppdaterad";
+"connection_lost_error_msg"="Ingen Internet-anslutning";
+
+// Util time change
+"util_moments_ago"="En stund sedan";
+"util_today_at"="idag % @";
+"util_yesterday_at"="Igår % @";
+
+// lmv viewer
+"open low version" = "Det finns en ny version tillgänglig. Ladda ner den uppdaterade versionen när du är online igen.";
+"Can't open this document." = "Det går inte att öppna det här dokumentet.";
+"Load sheet unsuccessfully message" = "Den här sidan kan inte visas";
+
+// Not enough storage
+"Ignore" = "Bortse från";
+"Settings" = "Inställningar";
+"NotEnoughStorageTitle" = "Inte tillräckligt med lagringsutrymme";
+"NotEnoughStorageSpace" = "Det finns inte tillräckligt med tillgängligt lagringsutrymme för att ladda ned dokument. Du kan hantera ditt lagringsutrymme i Inställningar.";
+
+// Empty Folder Message.
+"This folder is empty" = "Den här mappen är tom";
+"No plans message with linebreak" = "Inga planritningar har lagts till\n till detta projekt";
+"No files message with linebreak" = "Inga filer har lagts till\n till detta projekt";
+"No shop drawings message with linebreak" = "Inga verkstadsritningar har lagts till\n till detta projekt";
+
+// Issue list
+"current"="ström";
+"not current"="inte aktuell";
+"Answered by: "="Besvarat av: ";
+"To: "="Till: ";
+"Created by: "="Skapad av: ";
+"Issue #%d is not listed due to filters"="Ärende #%d finns inte med i listan på grund av filter";
+"The new issue is not listed due to filters"="Det nya ärendet visas inte på grund av filter";
+"Reset Filters"="Återställ filter";
+"Dismiss"="Avskeda";
+"Loading..."="Lastning...";
+"Some issues failed to sync"="Det gick inte att synkronisera vissa ärenden";
+"Updated at"="Uppdaterad kl.";
+
+//  PushPin tooltip
+"Tap to place a new issue" = "Tryck för att placera ett nytt ärende";
+
+// SetsSetting
+"%@ Plans"="%@ planer";
+"Settings below will be applied across all projects and folders." = "Inställningarna nedan tillämpas på alla projekt och mappar.";
+"Select what you’d like to download now. New sets will automatically download, based on your settings." = "Välj vad du vill ladda ned nu. Nya versioner hämtas automatiskt, baserat på dina inställningar.";
+"Remove From Device" = "Ta bort från enhet";
+"Some docs are downloaded to your device. Do you want to remove or keep them?" = "Vissa dokument hämtas till din enhet. Vill du ta bort eller behålla dem?";
+"Keep" = "Behålla";
+
+//3G warning based on global setting
+"On cellular network." = "På mobilnätet.";
+"Do you want to download now or wait until you are back on Wi-Fi?" = "Vill du ladda ner nu eller vänta tills du är tillbaka på Wi-Fi?";
+"Wait until I'm on Wi-Fi" = "Vänta tills jag är ansluten till Wi-Fi";
+"Download now" = "Hämta nu";
+
+// Switch Set or Version
+"Current Set"="Senaste uppsättning";
+"V%d"="V%d";// show current version(for exzample: Version 1 or Version 2) on top bar
+"This is not the current version."="Detta är inte den aktuella versionen.";
+
+// Set List
+"All Documents" = "Alla dokument";
+
+// Issue status
+"open" = "Öppna";
+"draft" = "Utkast";
+"answered" = "Svarade";
+"closed" = "Stängd";
+"unresolved"="Olöst";
+
+// New Display ID
+"NEW" = "NY";
+
+// Badge text
+"New"="Ny";
+"Updated"="Uppdaterad";
+
+//Issue detail form property IDs
+"ID" = "ID";
+"Title" = "Titel";
+"Description" = "Beskrivning";
+"Pinned to" = "Fäst på";
+"Author" = "Författare";
+"Assigned to" = "Tilldelat till";
+"Due Date" = "Förfallodatum";
+"Status" = "Status";
+"Updated At" = "Uppdaterad kl.";
+"Created At" = "Skapades kl.";
+"Closed By" = "Stängd av";
+"Closed At" = "Stängd kl.";
+"Attachments" = "Bilagor";
+"Comments" = "Kommentarer";
+"Official Response" = "Officiellt svar";
+"Answered By" = "Besvarat av";
+"Anwered Date" = "Anwered Datum";
+
+"Save" = "Spara";
+"Create new issue as" = "Skapa nytt ärende som";
+"New Issue" = "Nytt ärende";
+"Issue #" = "Utfärda #";
+"Unspecified" = "Ospecificerad";
+"Tap to enter a title" = "Tryck för att ange en rubrik";
+"Describe the issue or question" = "Beskriv ärendet eller frågan";
+"Provide an official response" = "Ge ett officiellt svar";
+
+//Due date
+"Past due since" = "Förfallen sedan";
+"Past due yesterday" = "Förfallen igår";
+"Due today" = "Förfaller i dag";
+"Due tomorrow" = "Förfaller i morgon";
+"Due on" = "Förfaller den";
+"Closed today" = "Stängd idag";
+"Closed yesterday" = "Stängt igår";
+"Closed on" = "Stängd den";
+
+// Properties
+"Unknown Object Name" = "Okänt objektnamn";
+"Other" = "Annan";
+
+// About no permission
+"Welcome to BIM 360 Docs" = "Välkommen till BIM 360 Docs";
+"Once documents have been shared with you, you’ll see them here" = "När dokumenten har delats med dig ser du dem här";
+"Learn more" = "Lära sig mer";
+"Nothing has been shared with you yet" = "Ingenting har delats med dig ännu";
+
+//fix
+"Created by"="Skapad av";
+"on" = "på";
+"Answered by: %@" ="Besvarat av: % @";
+"To: %@" = "Till: % @";
+"Created by: %@ on %@" = "Skapad av: %@ on % @";
+"Answered by %@, %@" = "Besvarad av %@, % @";
+"Created by %@ on %@" = "Skapad av %@ den % @";
+"Closed by %@ on %@" = "Stängd av %@ den % @";
+"Will be shown as answered by you" = "Kommer att visas som besvarad av dig";
+"Type your official response..." = "Skriv ditt officiella svar ...";
+"Mark as Closed" = "Markera som stängt";
+"Mark as Answered" = "Markera som besvarad";
+"Select a User" = "Välj en användare";
+"MMM d" = "MMM d";
+"h:mm a"="h:mm a";
+"Show Errors"="Visa fel";
+
+// Issue filters
+"Any Status"="Valfri status";
+"Anyone"="Någon";
+"Assigned to me"="Tilldelad mig";
+"Assignee"="Tilldelad person";
+
+//NMIssuePagerViewController
+"Information"="Information";
+
+//NMAddIssueCommentView
+"Type to add a Comment" = "Skriv för att lägga till en kommentar...";
+"Select an Assignee" = "Välj en tilldelad person";
+"No User" = "Ingen användare";
+// For issue location
+"Location" = "Plats";
+"Tap to add location" = "Tryck för att lägga till plats";
+
+// offline issue
+"Delete" = "Ta bort";
+"Retry" = "Igen";
+"Discard Changes"="Kasta ändringar";
+
+// Issue errors
+"Failed to Sync"="Det gick inte att synkronisera";
+
+//markup
+"Show Content" = "Visa innehåll"; // The content means issues and markups from the file.
+"Issues" = "Frågor";
+"Markups" = "Markeringar";
+"Mark as Open" = "Markera som öppen";
+"Hide" = "Gömma";
+"Show" = "Visa";
+"%@ at %@" = "%@ vid % @"; // somebody create a markup on a date.     Eg: "yan feng at Mar 4, 12:32 PM"
+"Close the markup" = "Stäng markeringen";
+"Confirm markup to be close" = "Det går inte att öppna markeringen igen efter att den har stängts. Vill du stänga den?";
+"Close" = "Stänga"; // e.g. Cancel or Close
+"Failed to close this markup" = "Det gick inte att stänga den här markeringen";
+
+//deep link alert msg
+"Bad Link" = "Den här länken kan vara felaktigt formaterad eller kräva funktioner som inte stöds av den aktuella appen.";//unknown action/mode or missing parameters
+"Can't Open Link" = "Det går inte att öppna länken";
+"Network Unavailable" = "Nätverket är inte tillgängligt";
+"Network Unavailable Body" = "Kontrollera din nätverksanslutning och försök igen senare.";
+"UI Busy" = "Avsluta den aktuella åtgärden och försök igen.";//in editing mode or showing download settings
+"Can't View Issue" = "Det går inte att visa ärendet";
+"Project Not Found" = "Projektet hittades inte";
+"Document Not Found" = "Dokumentet hittades inte";
+"Can't Load Document" = "Det går inte att läsa in dokumentet";
+"Issue Not Found" = "Ärendet hittades inte";
+"Can't Show Issue Pin" = "Det går inte att visa ärendets nål";
+"Can't Show Issue Pin message"  = "Ärendet syns inte i det här dokumentet på grund av de aktuella filterinställningarna eller att dokumentversionen visas.";
+"No Description" = "Ingen beskrivning";
+
+//Issue Creator filters
+"Created by Me" = "Skapad av mig";
+"Creator" = "Skapare";
+"Created by %@" = "Skapad av % @";
+"Select an Creator" = "Välj en skapare";
+"Specify a user" = "Ange en användare";
+
+// issue channel item , issue history ,event
+"Created this issue in %1$@ status and assigned to %2$@." = "Skapade det här ärendet i status %1$@ och tilldelade det till %2$@.";
+"Created this issue in %1$@ status." = "Skapade det här ärendet i status %1$@.";
+"Reassigned this issue to %1$@." = "Tilldelade om det här ärendet till %1$@.";
+"Changed status from %1$@ to %2$@." = "Ändrade status från %1$@ till %2$@.";
+"Changed status from %1$@ to %2$@ with official response(reopened by %3$@ on %4$@):" = "Ändrade status från %1$@ till %2$@ med officiellt svar (återöppnad av %3$@ den %4$@):";
+"Assigned back to %@." = "Tilldelad tillbaka till %@.";
+"Changed status from %1$@ to %2$@ with official response(accepted by %3$@ on %4$@):" = "Ändrade status från %1$@ till %2$@ med det officiella svaret (accepterades av %3$@ den %4$@):";
+"no one" = "ingen";
+"Changed status from %1$@ to %2$@ with official response(current):" = "Ändrade status från %1$@ till %2$@ med officiellt svar (aktuell):";
+//Add Photo
+"IssueDetail.Channel.AddPhoto.From Camera" = "Från kamera";
+"IssueDetail.Channel.AddPhoto.From Library" = "Från biblioteket";
+
+
+//Issue specify Assignee
+"Specify a user,role,or company" = "Ange en användare, en roll eller ett företag";
+"Assigned to %@" = "Tilldelad till % @";
+"No Filters" = "Inga filter";
+"View Options" = "Visa alternativ";
+"Me" = "Mig";
+
+// Application Permissions
+"Can't Access %@" = "Kan inte komma åt % @";
+"Please enable %@ in this app's iOS settings." = "Aktivera %@ i appens iOS-inställningar.";
+"Photos" = "Foton";
+"Camera" = "Kamera";
+
+// New strings

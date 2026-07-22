@@ -1,0 +1,326 @@
+﻿/*
+  Localizable.strings
+  SimpleApp
+
+  Created by Guobi Wu on 17/2/16.
+  Copyright © 2016 Autodesk. All rights reserved.
+*/
+
+"ErrorAlertOKButton"="确定";
+
+// Error
+"No Internet" = "无法连接到 BIM 360 Docs";
+"No Internet Reason" = "Check your network and try again.";
+
+"Authentication Failed" = "无法登录";
+"Authentication Failed Reason" = "Username or password is not valid, or your account hasn't subscribed to BIM 360 Docs.";
+"Invalid Account" = "无法登录";
+"Invalid Account Reason" = "对不起，您的帐户无效，请联系项目管理员。";
+"Inactive Account Reason" = "您的帐户未激活。如果您认为错误地收到此消息，请联系项目管理员。";
+
+"Request Data Failed" = "同步错误";
+"Request Data Failed Reason" = "服务器上可能存在数据冲突，或您没有相应的权限。";
+
+"Access Denied Failed"="拒绝被访问失败";
+"Access Denied (401) Failed Reason"="访问被拒绝 (401) 失败原因";
+
+"Get Session Token Failed"="获取会话标记失败";
+"Get Session Token Failed Reason"="获取会话标记失败原因";
+
+// Login
+"Please Login" = "";
+"Please Login Reason" = "身份验证已过期。请再次登录。";
+
+// Need re-sign in
+"Sign In Title" = "登录";
+"Re-Sign In Reason" = "由于较长时间未活动，您已被注销。";
+
+
+// Project list
+"Select All" = "全部选择";
+"Select None" = "全部不选";
+"All" = "全部";
+"None" = "无";
+"folders and files info" = "%@ 和 %@";
+"Options" = "选项";
+
+"By " = "通过";
+"By Name" = "按名称";
+"By Last Modified" = "按上次修改";
+"Name" = "名称";                    // Remove 'By'
+"Last Modified" = "上次修改";  // Remove 'By'
+
+"Edit" = "编辑";
+"Done" = "完成";
+"removeAllTitle" = "从设备删除";
+"Remove" = "删除";
+"Tap docs to download or remove from device" = "Tap docs to download or remove from device";
+"Download" = "下载";
+"Remove from device" = "从设备删除";
+"removeAllQuestion" = "是否确定要删除选定的文档？";
+"cannotRemoveTitle" = "无法从设备删除";
+"cannotRemoveMessage" = "由于您已设置为自动下载最新版本，因此部分文档无法删除。";
+
+//thumbnail view
+"Open in" = "打开方式...";
+
+// left side panel
+"logout" = "注销";
+"logoutQuestion" = "是否确定要注销？";
+"No" = "否";
+"Yes" = "确定";
+"OK" = "确定";
+"Cancel" = "取消";
+"Back" = "后退";
+"LIBRARY"="库";
+"SUPPORT"="支持";
+"Plans"="图纸";
+"Shop Drawings" = "施工图";
+"Files"="文件";
+"Getting Started"="快速入门";
+"Help"="帮助";
+"About"="关于";
+"Profile"="资料";
+"Settings"="设置";
+"View Settings"="视图设置";
+"Sync"="同步";
+"Alerts"="警报";
+"Last sync,"="上次同步时间，";
+"Syncing..."="正在同步...";
+"Last updated"="上次更新时间";
+"connection_lost_error_msg"="无 Internet 连接";
+
+// Util time change
+"util_moments_ago"="不久前";
+"util_today_at"="今天 %@";
+"util_yesterday_at"="昨天 %@";
+
+// lmv viewer
+"open low version" = "There is a new version available. Download the updated version when you are back online.";
+"Can't open this document." = "无法打开此文档。";
+"Load sheet unsuccessfully message" = "此页面无法显示";
+
+// Not enough storage
+"Ignore" = "忽略";
+"Settings" = "设置";
+"NotEnoughStorageTitle" = "存储空间不足";
+"NotEnoughStorageSpace" = "下载文档所需的可用存储空间不足。可在设置中管理存储空间。";
+
+// Empty Folder Message.
+"This folder is empty" = "此文件夹为空";
+"No plans message with linebreak" = "No plans have been added\n to this project";
+"No files message with linebreak" = "No files have been added\n to this project";
+"No shop drawings message with linebreak" = "No shop drawings have been added\n to this project";
+
+// Issue list
+"current"="最新";
+"not current"="非最新";
+"Answered by: "="回答者: ";
+"To: "="到: ";
+"Created by: "="创建者: ";
+"Issue #%d is not listed due to filters"="Issue #%d is not listed due to filters";
+"The new issue is not listed due to filters"="The new issue is not listed due to filters";
+"Reset Filters"="重置过滤器";
+"Dismiss"="关闭";
+"Loading..."="正在载入...";
+"Some issues failed to sync"="部分问题无法同步";
+"Updated at"="更新于";
+
+//  PushPin tooltip
+"Tap to place a new issue" = "单击以放置新问题";
+
+// SetsSetting
+"%@ Plans"="%@ 图纸";
+"Settings below will be applied across all projects and folders." = "以下设置将应用于所有项目和文件夹。";
+"Select what you’d like to download now. New sets will automatically download, based on your settings." = "选择您想要立即下载的内容。新版本将自动下载，具体取决于您的设置。";
+"Remove From Device" = "从设备删除";
+"Some docs are downloaded to your device. Do you want to remove or keep them?" = "部分文档已下载到设备。是否要删除或保留它们？";
+"Keep" = "保持";
+
+//3G warning based on global setting
+"On cellular network." = "处于蜂窝移动网络。";
+"Do you want to download now or wait until you are back on Wi-Fi?" = "是否要立即下载或等到重新处于 Wi-Fi 时再下载？";
+"Wait until I'm on Wi-Fi" = "等到重新处于 Wi-Fi 时";
+"Download now" = "立即下载";
+
+// Switch Set or Version
+"Current Set"="最新集合";
+"V%d"="V%d";// show current version(for exzample: Version 1 or Version 2) on top bar
+"This is not the current version."="这不是当前版本。";
+
+// Set List
+"All Documents" = "全部文档";
+
+// Issue status
+"open" = "打开";
+"draft" = "草稿";
+"answered" = "已回答";
+"closed" = "已关闭";
+"unresolved"="未解决";
+
+// New Display ID
+"NEW" = "新建";
+
+// Badge text
+"New"="新建";
+"Updated"="已更新";
+
+//Issue detail form property IDs
+"ID" = "ID";
+"Title" = "标题";
+"Description" = "说明";
+"Pinned to" = "已固定到";
+"Author" = "创建者";
+"Assigned to" = "指定对象";
+"Due Date" = "截止日期";
+"Status" = "状态";
+"Updated At" = "更新于";
+"Created At" = "创建时间";
+"Closed By" = "关闭者";
+"Closed At" = "关闭时间";
+"Attachments" = "附件";
+"Comments" = "评论";
+"Official Response" = "正式答复";
+"Answered By" = "回答者";
+"Anwered Date" = "回答日期";
+
+"Save" = "保存";
+"Create new issue as" = "将新问题创建为";
+"New Issue" = "新问题";
+"Issue #" = "问题编号";
+"Unspecified" = "未指定";
+"Tap to enter a title" = "点击以输入标题";
+"Describe the issue or question" = "描述问题";
+"Provide an official response" = "提供正式答复";
+
+//Due date
+"Past due since" = "过期起始时间";
+"Past due yesterday" = "昨天过期";
+"Due today" = "今天到期";
+"Due tomorrow" = "明天到期";
+"Due on" = "截止日期";
+"Closed today" = "今天关闭";
+"Closed yesterday" = "昨天关闭";
+"Closed on" = "关闭日期";
+
+// Properties
+"Unknown Object Name" = "未知对象名称";
+"Other" = "其他";
+
+// About no permission
+"Welcome to BIM 360 Docs" = "欢迎使用 BIM 360 Docs";
+"Once documents have been shared with you, you’ll see them here" = "Once documents have been shared with you, you’ll see them here";
+"Learn more" = "了解详细信息";
+"Nothing has been shared with you yet" = "尚未与您共享任何内容";
+
+//fix
+"Created by"="创建者";
+"on" = "于";
+"Answered by: %@" ="回答者: %@";
+"To: %@" = "到: %@";
+"Created by: %@ on %@" = "创建者为 %@，创建时间为 %@";
+"Answered by %@, %@" = "Answered by %@, %@";
+"Created by %@ on %@" = "创建者为 %@，创建时间为 %@";
+"Closed by %@ on %@" = "关闭者为 %@，关闭时间为 %@";
+"Will be shown as answered by you" = "Will be shown as answered by you";
+"Type your official response..." = "键入您的正式答复...";
+"Mark as Closed" = "标记为“已关闭”";
+"Mark as Answered" = "标记为“已回答”";
+"Select a User" = "选择用户";
+"MMM d" = "MMM d";
+"h:mm a"="h:mm a";
+"Show Errors"="显示错误";
+
+// Issue filters
+"Any Status"="任何状态";
+"Anyone"="任何人";
+"Assigned to me"="指定给我";
+"Assignee"="被分配者";
+
+//NMIssuePagerViewController
+"Information"="信息";
+
+//NMAddIssueCommentView
+"Type to add a Comment" = "输入以添加评论...";
+"Select an Assignee" = "选择被分配者";
+"No User" = "无用户";
+// For issue location
+"Location" = "位置";
+"Tap to add location" = "点击以添加位置";
+
+// offline issue
+"Delete" = "删除";
+"Retry" = "重试";
+"Discard Changes"="放弃更改";
+
+// Issue errors
+"Failed to Sync"="无法同步";
+
+//markup
+"Show Content" = "显示内容"; // The content means issues and markups from the file.
+"Issues" = "问题";
+"Markups" = "标记";
+"Mark as Open" = "标记为“待解决”";
+"Hide" = "隐藏";
+"Show" = "显示";
+"%@ at %@" = "% @ % @"; // somebody create a markup on a date.     Eg: "yan feng at Mar 4, 12:32 PM"
+"Close the markup" = "关闭标记";
+"Confirm markup to be close" = "You can not reopen the markup after it is closed. Are you sure you want to close it?";
+"Close" = "关闭"; // e.g. Cancel or Close
+"Failed to close this markup" = "Failed to close this markup";
+
+//deep link alert msg
+"Bad Link" = "此链接的格式设置可能不正确，或需要当前应用程序不支持的功能。";//unknown action/mode or missing parameters
+"Can't Open Link" = "无法打开链接";
+"Network Unavailable" = "网络不可用";
+"Network Unavailable Body" = "请检查网络连接，然后重试。";
+"UI Busy" = "Finish the current operation and try again.";//in editing mode or showing download settings
+"Can't View Issue" = "Can't View Issue";
+"Project Not Found" = "未找到项目";
+"Document Not Found" = "未找到文档";
+"Can't Load Document" = "无法加载文档";
+"Issue Not Found" = "未发现问题";
+"Can't Show Issue Pin" = "无法显示问题图钉";
+"Can't Show Issue Pin message"  = "由于当前过滤器设置或显示文档版本的原因，问题在此文档上不可见。";
+"No Description" = "无描述";
+
+//Issue Creator filters
+"Created by Me" = "由我创建";
+"Creator" = "创建者";
+"Created by %@" = "由 %@ 创建";
+"Select an Creator" = "选择创建者";
+"Specify a user" = "指定用户";
+
+// issue channel item , issue history ,event
+"Created this issue in %1$@ status and assigned to %2$@." = "以%1$@状态创建此问题并指定给 %2$@。";
+"Created this issue in %1$@ status." = "以%1$@状态创建此问题。";
+"Reassigned this issue to %1$@." = "将此问题重新指定给%1$@。";
+"Changed status from %1$@ to %2$@." = "状态已从%1$@更改为%2$@。";
+"Changed status from %1$@ to %2$@ with official response(reopened by %3$@ on %4$@):" = "状态已从%1$@更改为%2$@并已得到正式答复(由%3$@于%4$@重新打开):";
+"Assigned back to %@." = "指定回 %@。";
+"Changed status from %1$@ to %2$@ with official response(accepted by %3$@ on %4$@):" = "状态已从%1$@更改为%2$@并已得到正式答复(由%3$@于%4$@接受):";
+"no one" = "无人";
+"Changed status from %1$@ to %2$@ with official response(current):" = "状态已从%1$@更改为%2$@并已得到正式答复(当前):";
+//Add Photo
+"IssueDetail.Channel.AddPhoto.From Camera" = "来自相机";
+"IssueDetail.Channel.AddPhoto.From Library" = "来自库";
+
+
+//Issue specify Assignee
+"Specify a user,role,or company" = "指定用户、角色或公司";
+"Assigned to %@" = "已指定给 %@";
+"No Filters" = "无过滤器";
+"View Options" = "视图选项";
+"Me" = "我";
+
+// Application Permissions
+"Can't Access %@" = "无法访问 %@";
+"Please enable %@ in this app's iOS settings." = "请在该应用程序的 iOS 设置中启用 %@。";
+"Photos" = "照片";
+"Camera" = "相机";
+
+// New strings
+"Photos" = "照片";
+"Camera" = "相机";
+"Ne perekladaetsya" = "Ne perekladaetsya";
+"No Filters" = "无过滤器";

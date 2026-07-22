@@ -1,0 +1,9 @@
+﻿/*
+ Localizable.strings
+ SimpleApp
+ 
+ Created by Guobi Wu on 17/2/16.
+ Copyright © 2016 Autodesk. All rights reserved.
+ */
+"Hello Autodesk!" = "Hello Autodesk!";
+"Hello world!" = "Hello world!";

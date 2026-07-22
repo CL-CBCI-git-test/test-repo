@@ -1,0 +1,322 @@
+﻿/*
+  Localizable.strings
+  SimpleApp
+
+  Created by Guobi Wu on 17/2/16.
+  Copyright © 2016 Autodesk. All rights reserved.
+*/
+
+"ErrorAlertOKButton"="OK";
+
+// Error
+"No Internet" = "Impossibile connettersi a BIM 360 Docs";
+"No Internet Reason" = "Verificare la rete e riprovare.";
+
+"Authentication Failed" = "Impossibile accedere";
+"Authentication Failed Reason" = "Il nome utente o la password non sono validi oppure l'account non è stato sottoscritto in BIM 360 Docs.";
+"Invalid Account" = "Impossibile accedere";
+"Invalid Account Reason" = "Spiacenti, l'account non è valido. Contattare l'amministratore del progetto.";
+"Inactive Account Reason" = "L'account non è attivo. Se si ritiene di aver ricevuto questo messaggio per errore, si prega di contattare l'amministratore del progetto.";
+
+"Request Data Failed" = "Errore di sincronizzazione";
+"Request Data Failed Reason" = "Potrebbero verificarsi dei conflitti di dati sul server o non si dispone delle autorizzazioni appropriate.";
+
+"Access Denied Failed"="Accesso non riuscito";
+"Access Denied (401) Failed Reason"="Motivo accesso non riuscito (401)";
+
+"Get Session Token Failed"="Ottenimento del token della sessione non riuscito";
+"Get Session Token Failed Reason"="Motivo del fallimento dell'ottenimento del token della sessione";
+
+// Login
+"Please Login" = "";
+"Please Login Reason" = "Autenticazione scaduta. Eseguire nuovamente l'accesso.";
+
+// Need re-sign in
+"Sign In Title" = "Accedi";
+"Re-Sign In Reason" = "È stata effettuata la disconnessione a causa di nessuna attività da molto tempo.";
+
+
+// Project list
+"Select All" = "Seleziona Tutti";
+"Select None" = "Seleziona Nessuno";
+"All" = "Tutto";
+"None" = "Nessuno";
+"folders and files info" = "%@ e %@";
+"Options" = "Opzioni";
+
+"By " = "Da ";
+"By Name" = "Per nome";
+"By Last Modified" = "In base all'ultima modifica";
+"Name" = "Nome";                    // Remove 'By'
+"Last Modified" = "Ultima modifica";  // Remove 'By'
+
+"Edit" = "Modifica";
+"Done" = "Eseguito";
+"removeAllTitle" = "Rimuovi dal dispositivo";
+"Remove" = "Rimuovi";
+"Tap docs to download or remove from device" = "Toccare i documenti per scaricare o rimuovere dal dispositivo";
+"Download" = "Scarica";
+"Remove from device" = "Rimuovi dal dispositivo";
+"removeAllQuestion" = "Eliminare i documenti selezionati?";
+"cannotRemoveTitle" = "Impossibile rimuovere dal dispositivo";
+"cannotRemoveMessage" = "Alcuni documenti non possono essere eliminati poiché è impostato il download automatico della versione corrente.";
+
+//thumbnail view
+"Open in" = "Apri in...";
+
+// left side panel
+"logout" = "Esci";
+"logoutQuestion" = "Uscire?";
+"No" = "No";
+"Yes" = "Sì";
+"OK" = "OK";
+"Cancel" = "Annulla";
+"Back" = "Indietro";
+"LIBRARY"="LIBRERIA";
+"SUPPORT"="SUPPORTO";
+"Plans"="Piani";
+"Shop Drawings" = "Disegni esecutivi";
+"Files"="File";
+"Getting Started"="Manuale introduttivo";
+"Help"="?";
+"About"="Informazioni su";
+"Profile"="Profilo";
+"Settings"="Impostazioni";
+"View Settings"="Impostazioni vista";
+"Sync"="Sincronizza";
+"Alerts"="Avvisi";
+"Last sync,"="Ultima sincronizzazione,";
+"Syncing..."="Sincronizzazione in corso...";
+"Last updated"="Ultimo aggiornamento";
+"connection_lost_error_msg"="Nessuna connessione Internet";
+
+// Util time change
+"util_moments_ago"="poco fa";
+"util_today_at"="oggi %@";
+"util_yesterday_at"="ieri %@";
+
+// lmv viewer
+"open low version" = "È disponibile una nuova versione. Scaricare la versione aggiornata quando si è di nuovo online.";
+"Can't open this document." = "Impossibile aprire questo documento.";
+"Load sheet unsuccessfully message" = "Impossibile visualizzare questa pagina";
+
+// Not enough storage
+"Ignore" = "Ignora";
+"Settings" = "Impostazioni";
+"NotEnoughStorageTitle" = "Spazio di archiviazione insufficiente";
+"NotEnoughStorageSpace" = "Lo spazio di archiviazione disponibile per il download dei documenti non è sufficiente. È possibile gestire lo spazio di archiviazione nelle Impostazioni.";
+
+// Empty Folder Message.
+"This folder is empty" = "Questa cartella è vuota";
+"No plans message with linebreak" = "Nessun piano aggiunto a questo progetto";
+"No files message with linebreak" = "Nessun file aggiunto al progetto";
+"No shop drawings message with linebreak" = "Nessun disegno esecutivo aggiunto al progetto";
+
+// Issue list
+"current"="corrente";
+"not current"="non corrente";
+"Answered by: "="Risposta di: ";
+"To: "="A: ";
+"Created by: "="Creato da: ";
+"Issue #%d is not listed due to filters"="Il problema #%d non è presente a causa di filtri";
+"The new issue is not listed due to filters"="Il nuovo problema non è presente nell'elenco a causa dei filtri";
+"Reset Filters"="Ripristina i filtri";
+"Dismiss"="Chiudi";
+"Loading..."="Caricamento in corso...";
+"Some issues failed to sync"="Impossibile sincronizzare alcuni problemi";
+"Updated at"="Aggiornato alle";
+
+//  PushPin tooltip
+"Tap to place a new issue" = "Tocca per immettere un nuovo problema";
+
+// SetsSetting
+"%@ Plans"="%@ piani";
+"Settings below will be applied across all projects and folders." = "Le impostazioni sottostanti verranno applicate a tutti i progetti e a tutte le cartelle.";
+"Select what you’d like to download now. New sets will automatically download, based on your settings." = "Selezionare quello che si desidera scaricare ora. Le nuove versioni verranno scaricate automaticamente, in base alle impostazioni.";
+"Remove From Device" = "Rimuovi dal dispositivo";
+"Some docs are downloaded to your device. Do you want to remove or keep them?" = "Alcuni documenti sono stati scaricati sul dispositivo. Rimuoverli o mantenerli?";
+"Keep" = "Mantieni";
+
+//3G warning based on global setting
+"On cellular network." = "Su rete cellulare.";
+"Do you want to download now or wait until you are back on Wi-Fi?" = "Scaricare ora o attendere la disponibilità del Wi-Fi?";
+"Wait until I'm on Wi-Fi" = "Attendere la disponibilità del Wi-Fi";
+"Download now" = "Scarica ora";
+
+// Switch Set or Version
+"Current Set"="Gruppo più recente";
+"V%d"="V%d";// show current version(for exzample: Version 1 or Version 2) on top bar
+"This is not the current version."="Questa non è la versione corrente.";
+
+// Set List
+"All Documents" = "Tutti i documenti";
+
+// Issue status
+"open" = "Apri";
+"draft" = "Bozza";
+"answered" = "Risposta data";
+"closed" = "Chiuso";
+"unresolved"="Non risolto";
+
+// New Display ID
+"NEW" = "NUOVO";
+
+// Badge text
+"New"="Nuovo";
+"Updated"="Ultimo aggiorn";
+
+//Issue detail form property IDs
+"ID" = "ID";
+"Title" = "Titolo";
+"Description" = "Descrizione";
+"Pinned to" = "Bloccato su";
+"Author" = "Autore";
+"Assigned to" = "Assegnato a";
+"Due Date" = "Data di scadenza";
+"Status" = "Stato";
+"Updated At" = "Aggiornato alle";
+"Created At" = "Creato alle";
+"Closed By" = "Chiuso da";
+"Closed At" = "Chiuso alle";
+"Attachments" = "Allegati";
+"Comments" = "Commenti";
+"Official Response" = "Risposta ufficiale";
+"Answered By" = "Risposta di";
+"Anwered Date" = "Data risposta";
+
+"Save" = "Salva";
+"Create new issue as" = "Crea nuovo problema come";
+"New Issue" = "Nuovo problema";
+"Issue #" = "N. problema";
+"Unspecified" = "Non specificato";
+"Tap to enter a title" = "Tocca per immettere un titolo";
+"Describe the issue or question" = "Descrivi il problema o la domanda";
+"Provide an official response" = "Fornisci una risposta ufficiale";
+
+//Due date
+"Past due since" = "Scaduto da";
+"Past due yesterday" = "Scaduto ieri";
+"Due today" = "In scadenza oggi";
+"Due tomorrow" = "In scadenza domani";
+"Due on" = "In scadenza il";
+"Closed today" = "Chiuso oggi";
+"Closed yesterday" = "Chiuso ieri";
+"Closed on" = "Chiuso il";
+
+// Properties
+"Unknown Object Name" = "Nome oggetto sconosciuto";
+"Other" = "Altro";
+
+// About no permission
+"Welcome to BIM 360 Docs" = "Benvenuti in BIM 360 Docs";
+"Once documents have been shared with you, you’ll see them here" = "Una volta che i documenti sono stati condivisi con l'utente, è possibile visualizzarli qui";
+"Learn more" = "Ulteriori informazioni";
+"Nothing has been shared with you yet" = "Non è stato ancora condiviso nulla con l'utente";
+
+//fix
+"Created by"="Creato da";
+"on" = "il";
+"Answered by: %@" ="Risposta di: %@";
+"To: %@" = "A: %@";
+"Created by: %@ on %@" = "Creato da: %@ il %@";
+"Answered by %@, %@" = "Risposta di %@, %@";
+"Created by %@ on %@" = "Creato da %@ il %@";
+"Closed by %@ on %@" = "Chiuso da %@ il %@";
+"Will be shown as answered by you" = "Verrà visualizzata come risposta da parte dell'utente";
+"Type your official response..." = "Digita la risposta ufficiale...";
+"Mark as Closed" = "Contrassegna come chiuso";
+"Mark as Answered" = "Contrassegna come risposta data";
+"Select a User" = "Seleziona un utente";
+"MMM d" = "MMM d";
+"h:mm a"="h:mm a";
+"Show Errors"="Mostra errori";
+
+// Issue filters
+"Any Status"="Qualsiasi stato";
+"Anyone"="Chiunque";
+"Assigned to me"="Assegnato a me";
+"Assignee"="Assegnatario";
+
+//NMIssuePagerViewController
+"Information"="Informazioni";
+
+//NMAddIssueCommentView
+"Type to add a Comment" = "Digita per aggiungere un commento...";
+"Select an Assignee" = "Seleziona un assegnatario";
+"No User" = "Nessun utente";
+// For issue location
+"Location" = "Posizione";
+"Tap to add location" = "Tocca per aggiungere la posizione";
+
+// offline issue
+"Delete" = "Elimina";
+"Retry" = "Riprova";
+"Discard Changes"="Ignora modifiche";
+
+// Issue errors
+"Failed to Sync"="Impossibile sincronizzare";
+
+//markup
+"Show Content" = "Mostra contenuto"; // The content means issues and markups from the file.
+"Issues" = "Problemi";
+"Markups" = "Marcature";
+"Mark as Open" = "Contrassegna come aperto";
+"Hide" = "Nascondi";
+"Show" = "Mostra";
+"%@ at %@" = "%@ alle %@"; // somebody create a markup on a date.     Eg: "yan feng at Mar 4, 12:32 PM"
+"Close the markup" = "Chiudi la marcatura";
+"Confirm markup to be close" = "Non è possibile riaprire la revisione dopo la chiusura. Chiuderla?";
+"Close" = "Chiudi"; // e.g. Cancel or Close
+"Failed to close this markup" = "Impossibile chiudere questa revisione";
+
+//deep link alert msg
+"Bad Link" = "Questo collegamento potrebbe essere non formattato correttamente o potrebbe richiedere funzionalità non supportate dall'applicazione corrente.";//unknown action/mode or missing parameters
+"Can't Open Link" = "Impossibile aprire il collegamento";
+"Network Unavailable" = "Rete non disponibile";
+"Network Unavailable Body" = "Verificare la connessione di rete e riprovare in un secondo momento.";
+"UI Busy" = "Terminare l'operazione corrente e riprovare.";//in editing mode or showing download settings
+"Can't View Issue" = "Impossibile visualizzare il problema";
+"Project Not Found" = "Progetto non trovato";
+"Document Not Found" = "Documento non trovato";
+"Can't Load Document" = "Impossibile caricare il documento";
+"Issue Not Found" = "Problema non trovato";
+"Can't Show Issue Pin" = "Impossibile visualizzare il pin del problema";
+"Can't Show Issue Pin message"  = "Il problema non è visibile in questo documento a causa delle impostazioni correnti del filtro o della visualizzazione della versione del documento.";
+"No Description" = "Nessuna descrizione";
+
+//Issue Creator filters
+"Created by Me" = "Creato da me";
+"Creator" = "Autore";
+"Created by %@" = "Creato da %@";
+"Select an Creator" = "Seleziona un autore";
+"Specify a user" = "Specifica un utente";
+
+// issue channel item , issue history ,event
+"Created this issue in %1$@ status and assigned to %2$@." = "Problema creato con stato %1$@ e assegnato a %2$@.";
+"Created this issue in %1$@ status." = "Problema creato con stato %1$@.";
+"Reassigned this issue to %1$@." = "Problema riassegnato a %1$@.";
+"Changed status from %1$@ to %2$@." = "Stato modificato da %1$@ a %2$@.";
+"Changed status from %1$@ to %2$@ with official response(reopened by %3$@ on %4$@):" = "Stato modificato da %1$@ a %2$@ con risposta ufficiale (riaperto da %3$@ il %4$@):";
+"Assigned back to %@." = "Assegnato nuovamente a %@.";
+"Changed status from %1$@ to %2$@ with official response(accepted by %3$@ on %4$@):" = "Stato modificato da %1$@ a %2$@ con risposta ufficiale (accettato da %3$@ il %4$@):";
+"no one" = "nessuno";
+"Changed status from %1$@ to %2$@ with official response(current):" = "Stato modificato da %1$@ a %2$@ con risposta ufficiale (corrente):";
+//Add Photo
+"IssueDetail.Channel.AddPhoto.From Camera" = "Dalla fotocamera";
+"IssueDetail.Channel.AddPhoto.From Library" = "Dalla libreria";
+
+
+//Issue specify Assignee
+"Specify a user,role,or company" = "Specifica un utente, un ruolo o un'azienda";
+"Assigned to %@" = "Assegnato a %@";
+"No Filters" = "Nessun filtro";
+"View Options" = "Opzioni di visualizzazione";
+"Me" = "Io";
+
+// Application Permissions
+"Can't Access %@" = "Impossibile accedere a %@";
+"Please enable %@ in this app's iOS settings." = "Attivare %@ nelle impostazioni iOS dell'app.";
+"Photos" = "Foto";
+"Camera" = "Fotocamera";
+
+// New strings

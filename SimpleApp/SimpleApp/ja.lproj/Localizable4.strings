@@ -1,0 +1,326 @@
+﻿/*
+  Localizable.strings
+  SimpleApp
+
+  Created by Guobi Wu on 17/2/16.
+  Copyright © 2016 Autodesk. All rights reserved.
+*/
+
+"ErrorAlertOKButton"="OK";
+
+// Error
+"No Internet" = "BIM 360 Docs に接続できません";
+"No Internet Reason" = "ネットワークを確認して、もう一度やり直してください。";
+
+"Authentication Failed" = "サイン インできません";
+"Authentication Failed Reason" = "ユーザー名またはパスワードが無効、または BIM 360 ドキュメントに申し込んでいません。";
+"Invalid Account" = "サイン インできません";
+"Invalid Account Reason" = "申し訳ありません。このアカウントは有効ではありません。プロジェクト管理者にお問い合わせください。";
+"Inactive Account Reason" = "アカウントがアクティブではありません。 このメッセージを誤って受信したと思われる場合は、プロジェクト管理者に連絡してください。";
+
+"Request Data Failed" = "同期エラー";
+"Request Data Failed Reason" = "サーバ上でデータの競合が発生しているか、または適切な権限がありません。";
+
+"Access Denied Failed"="アクセスが拒否され、失敗しました";
+"Access Denied (401) Failed Reason"="アクセス拒否(401)の失敗の理由";
+
+"Get Session Token Failed"="セッション トークンの取得に失敗しました";
+"Get Session Token Failed Reason"="セッション トークン取得失敗の理由";
+
+// Login
+"Please Login" = "";
+"Please Login Reason" = "認証の有効期限が切れています。もう一度サイン インしてください。";
+
+// Need re-sign in
+"Sign In Title" = "サイン イン";
+"Re-Sign In Reason" = "長時間操作が行われなかったためサインアウトしました。";
+
+
+// Project list
+"Select All" = "すべて選択";
+"Select None" = "何も選択しない";
+"All" = "すべて";
+"None" = "なし";
+"folders and files info" = "%@ と %@";
+"Options" = "オプション";
+
+"By " = "基準 ";
+"By Name" = "名前";
+"By Last Modified" = "最終修正日時";
+"Name" = "名前";                    // Remove 'By'
+"Last Modified" = "最終修正日時";  // Remove 'By'
+
+"Edit" = "編集";
+"Done" = "完了";
+"removeAllTitle" = "デバイスから削除";
+"Remove" = "削除";
+"Tap docs to download or remove from device" = "ダウンロードまたはデバイスから削除するドキュメントをタップします。";
+"Download" = "ダウンロード";
+"Remove from device" = "デバイスから削除";
+"removeAllQuestion" = "選択したドキュメントを削除しますか?";
+"cannotRemoveTitle" = "デバイスから削除できません";
+"cannotRemoveMessage" = "現在のバージョンを自動的にダウンロードするように設定されているため、一部のドキュメントを削除できません。";
+
+//thumbnail view
+"Open in" = "開く...";
+
+// left side panel
+"logout" = "サイン アウト";
+"logoutQuestion" = "サイン アウトしますか?";
+"No" = "いいえ";
+"Yes" = "はい";
+"OK" = "OK";
+"Cancel" = "キャンセル";
+"Back" = "戻る";
+"LIBRARY"="ライブラリ";
+"SUPPORT"="サポート";
+"Plans"="設計図";
+"Shop Drawings" = "施工図";
+"Files"="ファイル";
+"Getting Started"="スタートアップ ガイド";
+"Help"="ヘルプ";
+"About"="概要";
+"Profile"="プロファイル";
+"Settings"="設定";
+"View Settings"="ビュー設定";
+"Sync"="同期";
+"Alerts"="警告";
+"Last sync,"="前回の同期、";
+"Syncing..."="同期中...";
+"Last updated"="最終更新日時";
+"connection_lost_error_msg"="インターネットに接続されていません";
+
+// Util time change
+"util_moments_ago"="少し前";
+"util_today_at"="今日 %@";
+"util_yesterday_at"="昨日 %@";
+
+// lmv viewer
+"open low version" = "利用可能な新しいバージョンがあります。あなたがオンラインに戻ったときは、最新バージョンをダウンロードします。";
+"Can't open this document." = "このドキュメントを開くことができません。";
+"Load sheet unsuccessfully message" = "このページは表示できません";
+
+// Not enough storage
+"Ignore" = "無視";
+"Settings" = "設定";
+"NotEnoughStorageTitle" = "ストレージが不足しています";
+"NotEnoughStorageSpace" = "ドキュメントのダウンロードに必要な空き容量が不足しています。[設定]で空き容量を管理してください。";
+
+// Empty Folder Message.
+"This folder is empty" = "このフォルダは空です";
+"No plans message with linebreak" = "計画がこのプロジェクトに追加されていません。";
+"No files message with linebreak" = "このプロジェクトにファイルが追加されていません。";
+"No shop drawings message with linebreak" = "店舗図面がこのプロジェクトに追加されていません。";
+
+// Issue list
+"current"="最新";
+"not current"="最新ではありません";
+"Answered by: "="回答者: ";
+"To: "="報告先: ";
+"Created by: "="作成者: ";
+"Issue #%d is not listed due to filters"="問題番号 %d がフィルターのため表示されていません。";
+"The new issue is not listed due to filters"="フィルターのための新しい問題が表示されていません。";
+"Reset Filters"="フィルタをリセット";
+"Dismiss"="解除";
+"Loading..."="ロード中...";
+"Some issues failed to sync"="いくつかの指摘事項を同期できませんでした";
+"Updated at"="更新日時";
+
+//  PushPin tooltip
+"Tap to place a new issue" = "タップして指摘事項を追加";
+
+// SetsSetting
+"%@ Plans"="%@ 設計図";
+"Settings below will be applied across all projects and folders." = "下の設定はすべてのプロジェクトとフォルダに適用されます。";
+"Select what you’d like to download now. New sets will automatically download, based on your settings." = "今すぐダウンロードしたいものを選択します。現在の設定に基づいて、 新しいバージョンが自動的にダウンロードされます。";
+"Remove From Device" = "デバイスから削除";
+"Some docs are downloaded to your device. Do you want to remove or keep them?" = "複数のドキュメントが使用中のデバイスにダウンロードされています。それらを削除しますか、それとも保存しますか?";
+"Keep" = "保存";
+
+//3G warning based on global setting
+"On cellular network." = "携帯電話回線上です。";
+"Do you want to download now or wait until you are back on Wi-Fi?" = "今すぐダウンロードするか、Wi-Fi に戻るまで待機しますか?";
+"Wait until I'm on Wi-Fi" = "Wi-Fi に戻るまで待機";
+"Download now" = "今すぐダウンロード";
+
+// Switch Set or Version
+"Current Set"="最新のセット";
+"V%d"="V % d";// show current version(for exzample: Version 1 or Version 2) on top bar
+"This is not the current version."="これは最新のバージョンではありません。";
+
+// Set List
+"All Documents" = "すべてのドキュメント";
+
+// Issue status
+"open" = "開く";
+"draft" = "下書き";
+"answered" = "回答済み";
+"closed" = "完了";
+"unresolved"="未解決";
+
+// New Display ID
+"NEW" = "新規";
+
+// Badge text
+"New"="新規作成";
+"Updated"="更新済み";
+
+//Issue detail form property IDs
+"ID" = "ID";
+"Title" = "タイトル";
+"Description" = "説明";
+"Pinned to" = "ピン固定先";
+"Author" = "作成者";
+"Assigned to" = "割り当て先";
+"Due Date" = "期日";
+"Status" = "ステータス";
+"Updated At" = "更新時";
+"Created At" = "作成時";
+"Closed By" = "完了者";
+"Closed At" = "完了時";
+"Attachments" = "添付";
+"Comments" = "コメント";
+"Official Response" = "正式回答";
+"Answered By" = "回答者";
+"Anwered Date" = "回答日";
+
+"Save" = "保存";
+"Create new issue as" = "新しい指摘事項を作成";
+"New Issue" = "新しい指摘事項";
+"Issue #" = "指摘事項 #";
+"Unspecified" = "未指定";
+"Tap to enter a title" = "タップしてタイトルを入力";
+"Describe the issue or question" = "指摘事項または質問を記述";
+"Provide an official response" = "正式回答を入力";
+
+//Due date
+"Past due since" = "期日を超過しています:";
+"Past due yesterday" = "昨日が期日でした";
+"Due today" = "今日が期日です";
+"Due tomorrow" = "明日が期日です";
+"Due on" = "期日:";
+"Closed today" = "今日完了しました";
+"Closed yesterday" = "昨日完了しました";
+"Closed on" = "完了日:";
+
+// Properties
+"Unknown Object Name" = "不明なオブジェクト名";
+"Other" = "その他";
+
+// About no permission
+"Welcome to BIM 360 Docs" = "BIM 360 Docs へようこそ";
+"Once documents have been shared with you, you’ll see them here" = "ここが表示されますあなたとドキュメントを共有すると、";
+"Learn more" = "詳細はこちら";
+"Nothing has been shared with you yet" = "まだ何も共有されていません";
+
+//fix
+"Created by"="作成者";
+"on" = "作成日";
+"Answered by: %@" ="回答者: %@";
+"To: %@" = "宛先: %@";
+"Created by: %@ on %@" = "作成者: %@ 作成日: %@";
+"Answered by %@, %@" = "% 答えた @、% @";
+"Created by %@ on %@" = "作成者: %@ 作成日: %@";
+"Closed by %@ on %@" = "完了者: %@ 完了日: %@";
+"Will be shown as answered by you" = "あなたが答えたとおりに表示されます。";
+"Type your official response..." = "正式回答を入力してください...";
+"Mark as Closed" = "完了としてマーク";
+"Mark as Answered" = "回答済みとしてマーク";
+"Select a User" = "ユーザを選択";
+"MMM d" = "MMM d";
+"h:mm a"="H時mm分";
+"Show Errors"="エラーを表示";
+
+// Issue filters
+"Any Status"="すべてのステータス";
+"Anyone"="すべてのメンバー";
+"Assigned to me"="自分が割り当て先";
+"Assignee"="割り当て先";
+
+//NMIssuePagerViewController
+"Information"="情報";
+
+//NMAddIssueCommentView
+"Type to add a Comment" = "コメントを入力して追加....";
+"Select an Assignee" = "割り当て先を選択";
+"No User" = "未定";
+// For issue location
+"Location" = "場所";
+"Tap to add location" = "タップして場所を追加";
+
+// offline issue
+"Delete" = "削除";
+"Retry" = "再試行";
+"Discard Changes"="変更を破棄";
+
+// Issue errors
+"Failed to Sync"="同期できませんでした";
+
+//markup
+"Show Content" = "コンテンツを表示"; // The content means issues and markups from the file.
+"Issues" = "指摘事項";
+"Markups" = "マークアップ";
+"Mark as Open" = "未完了としてマーク";
+"Hide" = "非表示";
+"Show" = "表示";
+"%@ at %@" = "%@ / %@"; // somebody create a markup on a date.     Eg: "yan feng at Mar 4, 12:32 PM"
+"Close the markup" = "マークアップを完了の状態に変更";
+"Confirm markup to be close" = "それが閉じられた後にマークアップを開くがないです。あなたはそれを閉じてもよろしいですか。";
+"Close" = "閉じる"; // e.g. Cancel or Close
+"Failed to close this markup" = "このマークアップを閉じるのに失敗しました";
+
+//deep link alert msg
+"Bad Link" = "このリンクは不正な形式で作成されているか、現在のアプリでは対応していない機能を要求している可能性があります。";//unknown action/mode or missing parameters
+"Can't Open Link" = "リンクを開けません";
+"Network Unavailable" = "ネットワークを使用できません";
+"Network Unavailable Body" = "ネットワーク接続を確認し、もう一度試してください。";
+"UI Busy" = "現在の操作を終了して、もう一度やり直してください。";//in editing mode or showing download settings
+"Can't View Issue" = "問題を表示できません。";
+"Project Not Found" = "プロジェクトが見つかりません";
+"Document Not Found" = "ドキュメントが見つかりません";
+"Can't Load Document" = "ドキュメントをロードできません";
+"Issue Not Found" = "指摘事項が見つかりません";
+"Can't Show Issue Pin" = "指摘事項のピンを表示できません";
+"Can't Show Issue Pin message"  = "現在のフィルタ設定か表示中のドキュメントのバージョンが原因で、この指摘事項を表示することができません。";
+"No Description" = "説明は未記入です";
+
+//Issue Creator filters
+"Created by Me" = "自分が作成";
+"Creator" = "作成者";
+"Created by %@" = "作成者: %@";
+"Select an Creator" = "作成者を選択";
+"Specify a user" = "ユーザを指定";
+
+// issue channel item , issue history ,event
+"Created this issue in %1$@ status and assigned to %2$@." = "この指摘事項は %1$@ のステータスで作成され、%2$@ に割り当てられました。";
+"Created this issue in %1$@ status." = "この指摘事項は %1$@ のステータスで作成されました。";
+"Reassigned this issue to %1$@." = "この指摘事項は %1$@ に再度割り当てられました。";
+"Changed status from %1$@ to %2$@." = "ステータスが %1$@ から %2$@ に変更されました。";
+"Changed status from %1$@ to %2$@ with official response(reopened by %3$@ on %4$@):" = "次の正式回答(差戻者: %3$@、差戻日時: %4$@)により、ステータスが %1$@ から %2$@ に変更されました。";
+"Assigned back to %@." = "割り当て先が %@ に戻されました。";
+"Changed status from %1$@ to %2$@ with official response(accepted by %3$@ on %4$@):" = "次の正式回答(承認者: %3$@、承認日時: %4$@)により、ステータスが %1$@ から %2$@ に変更されました。";
+"no one" = "なし";
+"Changed status from %1$@ to %2$@ with official response(current):" = "次の正式回答(最新)により、ステータスが %1$@ から %2$@ に変更されました。";
+//Add Photo
+"IssueDetail.Channel.AddPhoto.From Camera" = "カメラから";
+"IssueDetail.Channel.AddPhoto.From Library" = "ライブラリから";
+
+
+//Issue specify Assignee
+"Specify a user,role,or company" = "ユーザ、役割、または会社を指定";
+"Assigned to %@" = "割り当て先: %@";
+"No Filters" = "フィルタなし";
+"View Options" = "表示オプション";
+"Me" = "自分";
+
+// Application Permissions
+"Can't Access %@" = "%@ にアクセスできません";
+"Please enable %@ in this app's iOS settings." = "iOS 設定でこのアプリケーションの %@ を有効にしてください。";
+"Photos" = "写真";
+"Camera" = "カメラ";
+
+// New strings
+"Photos" = "写真";
+"Camera" = "カメラ";
+"Ne perekladaetsya" = "Ne perekladaetsya";
+"No Filters" = "フィルタなし";

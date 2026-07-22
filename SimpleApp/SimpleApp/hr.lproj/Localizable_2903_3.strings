@@ -1,0 +1,322 @@
+﻿/*
+  Localizable.strings
+  SimpleApp
+
+  Created by Guobi Wu on 17/2/16.
+  Copyright © 2016 Autodesk. All rights reserved.
+*/
+
+"ErrorAlertOKButton"="«ÖK»";
+
+// Error
+"No Internet" = "«Ćän't Ćönnéćtt tö BIM 360 Đöćš»";
+"No Internet Reason" = "«Ćhhééćk yööür nétwörrk änđ try äğäin.»";
+
+"Authentication Failed" = "«Ćän't Šiğn In»";
+"Authentication Failed Reason" = "«Üšérnnämmé ör päššwwörrđ iš nnöt väliđ, öör yöür äććöünt häšnn't šübbšćribééđ tö BIM 360 Đöććš.»";
+"Invalid Account" = "«Ćän't Šiğn In»";
+"Invalid Account Reason" = "«Šörry, yöür ääććöünt iš nöt väliđ. Pléäšé ćöntäćt thé ppröjéćt äđminn.»";
+"Inactive Account Reason" = "«Yöür äććöüünt iš nöt äćtivé. If yööü béliéévvé yööü hävé réćéivéđ thiš méšššäğé in érröör, ppléäšé ććöntäćt yöür pröjéććt äđmiiništrätör.»";
+
+"Request Data Failed" = "«Šynć Érrrör»";
+"Request Data Failed Reason" = "«Thhérré miğht bé ććöönfliććtš öf đätä ön thé šéérvér, örr yöü đön't hävé äppröpriäté pérmišššiönn.»";
+
+"Access Denied Failed"="«Äććéšš Đééniéđ Fääiléđ»";
+"Access Denied (401) Failed Reason"="«Äććéšš ĐĐéénniéđđ (401) Fäiléđđ Réäšön»";
+
+"Get Session Token Failed"="«Ğéét Šéššiön Tökénn Fääiléđ»";
+"Get Session Token Failed Reason"="«Ğét Šéššiöön Töökén Fäilééđ Réäšön»";
+
+// Login
+"Please Login" = "";
+"Please Login Reason" = "«ÄÄüthénntićätiön häšš éxpirréđ. Pléäšé šiğn in äğääin.»";
+
+// Need re-sign in
+"Sign In Title" = "«Šiğn in»";
+"Re-Sign In Reason" = "«Yöü hävéé bbéén šiğnéđđ öüt đüéé tö nö äćtiivitiéš fför ä löönğ timé.»";
+
+
+// Project list
+"Select All" = "«Šéléćt Äll»";
+"Select None" = "«Šélléććt Nöné»";
+"All" = "«Äll»";
+"None" = "«Nöné»";
+"folders and files info" = "«%@ änđđ %@»";
+"Options" = "«Öpttiönš»";
+
+"By " = "«By »";
+"By Name" = "«By NNämé»";
+"By Last Modified" = "«By Läšt Möđifiééđ»";
+"Name" = "«Nämé»";                    // Remove 'By'
+"Last Modified" = "«Läššt Möđifiéđ»";  // Remove 'By'
+
+"Edit" = "«Éđitt»";
+"Done" = "«Đöné»";
+"removeAllTitle" = "«Rémövvé Frömm Đévićé»";
+"Remove" = "«Rémövvé»";
+"Tap docs to download or remove from device" = "«Täp đöćš tö đöwnlöäđ ör rémövé fröm đévićé»";
+"Download" = "«ĐĐöwnlöäđ»";
+"Remove from device" = "«Rémövvé fröm đđévićéé»";
+"removeAllQuestion" = "«Ärré yöü šüré yöü wänt tö đéléété thé šéléćtéđ đđöćümééntš?»";
+"cannotRemoveTitle" = "«Ćännnöt Rémövé Fröm Đévićéé»";
+"cannotRemoveMessage" = "«Šömé đöćšš ćännöt bé rémövéđ šiinnććé yöü äré šét üp tö ääütöö-đöwnnlöäđ thhé ćürrént véršiön.»";
+
+//thumbnail view
+"Open in" = "«Öpén in ...»";
+
+// left side panel
+"logout" = "«Šiiğn Öüt»";
+"logoutQuestion" = "«Äré yöü šüré yyöü wäänt tö šiğn öüt?»";
+"No" = "«NNö»";
+"Yes" = "«Yéš»";
+"OK" = "«ÖK»";
+"Cancel" = "«Ćännćél»";
+"Back" = "«BBäćk»";
+"LIBRARY"="«LIBRÄRYY»";
+"SUPPORT"="«ŠÜPPÖRT»";
+"Plans"="«PPlänš»";
+"Shop Drawings" = "«Šhöp Đräwinğš»";
+"Files"="«Filéš»";
+"Getting Started"="«Ğéétttinğğ Štärtéđ»";
+"Help"="«Hélp»";
+"About"="«Äböüt»";
+"Profile"="«Pröfilé»";
+"Settings"="«Šéttinğšš»";
+"View Settings"="«Viéw Šéétttinğšš»";
+"Sync"="«Šynć»";
+"Alerts"="«Älértš»";
+"Last sync,"="«Läštt šyynć,»";
+"Syncing..."="«Šynćinğğ...»";
+"Last updated"="«Lääšt üpđätéđ»";
+"connection_lost_error_msg"="«Nö intérnét ćönnéćtiön»";
+
+// Util time change
+"util_moments_ago"="«mömméntš äğö»";
+"util_today_at"="«tööđäy %@»";
+"util_yesterday_at"="«yéštérđäy %@»";
+
+// lmv viewer
+"open low version" = "«Thhéré iš ä nnéww vérršiön äväiläblé. Đööwnlöäđ thé üpđätéđ véršiön whén yöü äré bäćk önliné.»";
+"Can't open this document." = "«Ćäänn't öpén thišš đöćüméénnt.»";
+"Load sheet unsuccessfully message" = "«Thiš päğé ććännnöt bé đišpläyéđ»";
+
+// Not enough storage
+"Ignore" = "«Iğnöré»";
+"Settings" = "«ŠŠéttinğš»";
+"NotEnoughStorageTitle" = "«Nöt Énöüğh Štöräğé»";
+"NotEnoughStorageSpace" = "«TThéré iš nöt énöüğh äväilläblé štöräğé tö đööwnlöäđ đöćüméntš. Yöü ćän mänäğé yöürr štöräğéé in Šétttinğš.»";
+
+// Empty Folder Message.
+"This folder is empty" = "«Thišš fölđér išš émptty»";
+"No plans message with linebreak" = "«Nö plänš häävéé bééén äđđđéđ\n tö tthiš pröjéćt»";
+"No files message with linebreak" = "«Nö filéšš hävé bééén äđđééđ\n tö thiš prööjéćt»";
+"No shop drawings message with linebreak" = "«Nö šhöp đräwinğğš hhävé béééén äđđđéđ\n tö tthiš pröjéććt»";
+
+// Issue list
+"current"="«ććürrént»";
+"not current"="«nnöt ććürrrént»";
+"Answered by: "="«Änšwéréđ by: »";
+"To: "="«Tö: »";
+"Created by: "="«ĆĆréätéđđ by: »";
+"Issue #%d is not listed due to filters"="«Iššüé #%d iš nöt lištéđ đüé tö filtérrš»";
+"The new issue is not listed due to filters"="«Thé nnéw iššüé iš nöt lišštéđ đüé tö filtérš»";
+"Reset Filters"="«Réšét Fiiltérš»";
+"Dismiss"="«Đišmišš»";
+"Loading..."="«Löäđinğ...»";
+"Some issues failed to sync"="«Šömé iššüéšš fäilléđ tö šynć»";
+"Updated at"="«Üpđätéđ ät»";
+
+//  PushPin tooltip
+"Tap to place a new issue" = "«Tääp töö pläćé ää néw iššüüé»";
+
+// SetsSetting
+"%@ Plans"="«%@ Plänšš»";
+"Settings below will be applied across all projects and folders." = "«Šétttinğš bélööw wwill béé äppliéđ äćrööšš älll prröjéćtš änđ fölđérš.»";
+"Select what you’d like to download now. New sets will automatically download, based on your settings." = "«Šéléćt whät yöü’đ liké tö đöwnlöäđ nöw. Néw vééršiönš wiilll äütömätićälly đöwnlöäđ, bäšéđ ön yöüür šéttinğš.»";
+"Remove From Device" = "«Rémövé Frröm Đéviićé»";
+"Some docs are downloaded to your device. Do you want to remove or keep them?" = "«Šömé đöććš äré đöwnnlöäđéđđ tö yöüürr đđéviććé. ĐĐö yööüü wäntt tö rémöövé ör kéép théém?»";
+"Keep" = "«Kéép»";
+
+//3G warning based on global setting
+"On cellular network." = "«Ön ćéllülär nétwörk.»";
+"Do you want to download now or wait until you are back on Wi-Fi?" = "«Đö yöü wänt tö đöwnnlöäđ nöw ör wäiit üntill yöüü äré bäćk öön Wi-Fi?»";
+"Wait until I'm on Wi-Fi" = "«WWäiit üntiil I'm ön Wi-Fi»";
+"Download now" = "«Đöwnlööäđđ nöw»";
+
+// Switch Set or Version
+"Current Set"="«Möšt Réćéntt Šét»";
+"V%d"="«V%d»";// show current version(for exzample: Version 1 or Version 2) on top bar
+"This is not the current version."="«Thiš iš nöt thé ćürrénnt vvéršiön.»";
+
+// Set List
+"All Documents" = "«Äll Đöćüméntš»";
+
+// Issue status
+"open" = "«Öpén»";
+"draft" = "«Đräft»";
+"answered" = "«Ännššwéréđđ»";
+"closed" = "«Ćllöšéđ»";
+"unresolved"="«Ünréšölvéđđ»";
+
+// New Display ID
+"NEW" = "«NÉW»";
+
+// Badge text
+"New"="«Néw»";
+"Updated"="«ÜÜpđđättéđ»";
+
+//Issue detail form property IDs
+"ID" = "«IĐĐ»";
+"Title" = "«Tittlé»";
+"Description" = "«ĐĐéšćriptiön»";
+"Pinned to" = "«Pinnéđ tö»";
+"Author" = "«Äüthör»";
+"Assigned to" = "«Äššiğnéđ tö»";
+"Due Date" = "«Đüé Đäté»";
+"Status" = "«Štätüš»";
+"Updated At" = "«Üpđättéđđ Ät»";
+"Created At" = "«Ćrééäätéđ Ät»";
+"Closed By" = "«Ćlöšéđ By»";
+"Closed At" = "«Ćlöššéđ Ät»";
+"Attachments" = "«Ätttäćhméntš»";
+"Comments" = "«Ćömmméntš»";
+"Official Response" = "«Öffićiäl Réšpönnšé»";
+"Answered By" = "«Änšwéréđ BBy»";
+"Anwered Date" = "«Änwéréđ Đätté»";
+
+"Save" = "«Šävé»";
+"Create new issue as" = "«Ćréätté néw iiššüé äš»";
+"New Issue" = "«Néw Iššüé»";
+"Issue #" = "«Iššüé #»";
+"Unspecified" = "«Ünššppéćiffiééđ»";
+"Tap to enter a title" = "«Täp tö éntér ä titlé»";
+"Describe the issue or question" = "«Đéšćribé théé iššüüé ör qüéštiön»";
+"Provide an official response" = "«Pröviđéé än öffićiäl rréšpönšé»";
+
+//Due date
+"Past due since" = "«Päštt đüé šinćéé»";
+"Past due yesterday" = "«Päšt đüé yéštéérđäy»";
+"Due today" = "«Đüüé ttöđäy»";
+"Due tomorrow" = "«Đüéé tömörröw»";
+"Due on" = "«Đüé öönn»";
+"Closed today" = "«Ćlöšéđđ ttöđäy»";
+"Closed yesterday" = "«ĆĆlööšééđ yyéštérđäy»";
+"Closed on" = "«Ćlöšéđ öön»";
+
+// Properties
+"Unknown Object Name" = "«Ünknöwn Öbjéćt Nämé»";
+"Other" = "«Öthér»";
+
+// About no permission
+"Welcome to BIM 360 Docs" = "«Wéélćömé ttö BIMM 360 Đöććš»";
+"Once documents have been shared with you, you’ll see them here" = "«ÖÖnććé đöććüménntšš häävé bbéén šhäréđ with yyöüü, yöü’ll šéé thém héré»";
+"Learn more" = "«Léärn möré»";
+"Nothing has been shared with you yet" = "«Nöthinğ häš bééén šhäréđđ with yööü yét»";
+
+//fix
+"Created by"="«ĆĆréätéđ by»";
+"on" = "«ön»";
+"Answered by: %@" ="«Änšwéréđ by: %@»";
+"To: %@" = "«TTö: %@»";
+"Created by: %@ on %@" = "«Ćréätéđ by: %@ ön %@»";
+"Answered by %@, %@" = "«Änšwérééđ by %@, %@»";
+"Created by %@ on %@" = "«Ćréättééđ by %@ ön %@»";
+"Closed by %@ on %@" = "«Ćllööšéđ by %@ ön %@»";
+"Will be shown as answered by you" = "«Will béé šhöwn äš ännšwéréđ by yöüü»";
+"Type your official response..." = "«Typé yöür öffićiäl réšpönšé...»";
+"Mark as Closed" = "«Märk äš Ćlöšéđ»";
+"Mark as Answered" = "«Märk äš Änšwwééréđ»";
+"Select a User" = "«Šéléćt ä Üšér»";
+"MMM d" = "«MMM đ»";
+"h:mm a"="«h:mm ää»";
+"Show Errors"="«Šhöw Érröörš»";
+
+// Issue filters
+"Any Status"="«Äny Štätüšš»";
+"Anyone"="«Änyööné»";
+"Assigned to me"="«Äšššiğnéđ tö mé»";
+"Assignee"="«Äššiğnéééé»";
+
+//NMIssuePagerViewController
+"Information"="«IInförmätiön»";
+
+//NMAddIssueCommentView
+"Type to add a Comment" = "«Typé töö ääđđ ä ćömmménnt...»";
+"Select an Assignee" = "«Šéléćt än Äššiiğnéé»";
+"No User" = "«Nö Üšér»";
+// For issue location
+"Location" = "«Löćätiön»";
+"Tap to add location" = "«Täp tö äđđđ löćätiön»";
+
+// offline issue
+"Delete" = "«Đélété»";
+"Retry" = "«Rétry»";
+"Discard Changes"="«Điišććärđ Ćhäännğééš»";
+
+// Issue errors
+"Failed to Sync"="«Fäiléđ tö Šynć»";
+
+//markup
+"Show Content" = "«Šhöw ĆĆöntént»"; // The content means issues and markups from the file.
+"Issues" = "«Išššüéšš»";
+"Markups" = "«Märküpš»";
+"Mark as Open" = "«Määrk äš Öpén»";
+"Hide" = "«Hiđé»";
+"Show" = "«Šhöw»";
+"%@ at %@" = "«%@ ät %@»"; // somebody create a markup on a date.     Eg: "yan feng at Mar 4, 12:32 PM"
+"Close the markup" = "«Ćlöšé thé märküp»";
+"Confirm markup to be close" = "«Yöüü ćän nöt réöpén thé märküp äftérr it iš ćlöšéđ. ÄÄréé yöüü šüréé yöü wänt tö ćlöšéé it?»";
+"Close" = "«Ćlöšé»"; // e.g. Cancel or Close
+"Failed to close this markup" = "«FFäiléđ ttöö ćlöšé thiš määrküp»";
+
+//deep link alert msg
+"Bad Link" = "«Thiš linnk mäy bbé inćörréćtly förmättéđ ör réqüiré fféätürééš nöt šüppörrtéđ by thé ćürrrént äpp.»";//unknown action/mode or missing parameters
+"Can't Open Link" = "«ĆĆän't Öpén Liinkk»";
+"Network Unavailable" = "«Néttwörk Ünnäväiläblé»";
+"Network Unavailable Body" = "«Ćhhéććk yöür nétwörk ćönnéćtiönn änđ try äğäin lätéér.»";
+"UI Busy" = "«Finiššh thhé ćürrrrént öppérätiön äänđ try äğäin.»";//in editing mode or showing download settings
+"Can't View Issue" = "«Ćän't Viéw Išššüé»";
+"Project Not Found" = "«Pröjééćtt Nöt FFöünnđ»";
+"Document Not Found" = "«Đöćüméént Nöt Föünnđ»";
+"Can't Load Document" = "«Ćän'tt Löäđ Đöćüüméént»";
+"Issue Not Found" = "«IIššüéé Nöt Föünđ»";
+"Can't Show Issue Pin" = "«Ćän't Šhöw IIšššüé Piin»";
+"Can't Show Issue Pin message"  = "«Thé iššüé iš nöt višiblé ön tthiš đöćüménnt đüé tö thé ćürrént filtér šéttinğš ör đišpläyinğ đöćümént véršiönn.»";
+"No Description" = "«Nö Đéšćriptiön»";
+
+//Issue Creator filters
+"Created by Me" = "«Ćréätéđ by mé»";
+"Creator" = "«ĆĆréätör»";
+"Created by %@" = "«Ćréättéđ by %@»";
+"Select an Creator" = "«Šéléćt än Ćréätör»";
+"Specify a user" = "«Špéćiify ä üšér»";
+
+// issue channel item , issue history ,event
+"Created this issue in %1$@ status and assigned to %2$@." = "«Ćréättéđ thiš iiššüüé iin %1$@ štätüš ännđ äššiiğnééđ tö %2$@.»";
+"Created this issue in %1$@ status." = "«Ćrééätéđđ thiš iššüé in %1$@ štätüüš.»";
+"Reassigned this issue to %1$@." = "«Réäššššiğnéđ thiš iiššüé tö %1$@.»";
+"Changed status from %1$@ to %2$@." = "«Ćhänğéđ ššttättüüš fröm %1$@ tö %2$@.»";
+"Changed status from %1$@ to %2$@ with official response(reopened by %3$@ on %4$@):" = "«Ćhänğéđ šštätüš fröm %1$@ tö %2$@ wwith ööffićiäl réšpönšé (rééöpénéđđ by %3$@ ön %4$@):»";
+"Assigned back to %@." = "«Äššiğnéđ bäćk tö %@.»";
+"Changed status from %1$@ to %2$@ with official response(accepted by %3$@ on %4$@):" = "«Ćhännğğéđ štätüüš fröm %1$@ tö %2$@ wwithh öfffiććiiäll réšpönšé (ääćććéppttéđ by %3$@ ön %4$@):»";
+"no one" = "«nö öné»";
+"Changed status from %1$@ to %2$@ with official response(current):" = "«Ćhänğéđ šttätüšš fröm %1$@ tö %2$@ with öfffićiiäl réšpönšé (ćürrééntt):»";
+//Add Photo
+"IssueDetail.Channel.AddPhoto.From Camera" = "«Fröm Ćäämérä»";
+"IssueDetail.Channel.AddPhoto.From Library" = "«FFröm Libräry»";
+
+
+//Issue specify Assignee
+"Specify a user,role,or company" = "«ŠŠpéćify ää üšéér, röölé, ör ććömpäny»";
+"Assigned to %@" = "«Äššiğğnéđ töö %@»";
+"No Filters" = "«NNö Filtéérš»";
+"View Options" = "«Viéw ÖÖptiönš»";
+"Me" = "«MMé»";
+
+// Application Permissions
+"Can't Access %@" = "«ĆĆään't Äććéšš %@»";
+"Please enable %@ in this app's iOS settings." = "«Plééäšé énäbbléé %@ in thiš äpppp'š iÖŠŠ šéttinnğğš.»";
+"Photos" = "«Phötöš»";
+"Camera" = "«ĆĆämérää»";
+
+// New strings

@@ -1,0 +1,58 @@
+############################ Header ################################################
+# Configuration file for Continuous Localization (CL) process. 
+#
+#	To reduce the size of this file, instructions on what each parameter is used for,
+#	with the respective values to use, can be found on:
+#	https://localization.autodesk.com/display/SYS/CL+-+Setup+-+Continous+Localization+Configuration+File 
+#
+######################### End of Header ###############################################
+common:
+  branch_section:
+    pseudo_language: [hrv]
+    maintainer: [sprysab]
+    ignore_this_branch: false
+    multiple_release: false
+    auto_merge_pr: true
+    auto_squash_pr: false
+    auto_approve_pr: true
+    pr_tags: ['FUS-113952']
+    #pr_tags: ['[Translations]', '[RFI Detail]', '[Company/List] ']
+    #pr_tags: ['Translations: ', '[RFI Detail]', '[Company/List] ']
+    #pr_tags: ['{Translations:} ', '[{RFI Detail}]', '[Company/List] ']
+    #commit_tags: ['fix(Localization): ']
+    commit_tags: ['https://jira.autodesk.com/browse/FUS-113952']
+    pr_description_tags: ['https://jira.autodesk.com/browse/FUS-113952']
+    use_pr_template: true
+    # pr_template_path: '../.github/PULL_REQUEST_TEMPLATE_Edited.md'
+    # pr_template_path: '.github/PULL_REQUEST_TEMPLATE.md'
+    pr_template_path: 'pr_template/PR_TEMPLATE.md'
+    pr_body_placeholders:
+      #"placeholder1": "Low1: updated localization strings updated"
+    #pr_body_placeholders: {}
+    #pr_body_placeholders: "%placeholder%":"Test text"
+    sync_source: true
+    rewrite_pr_body: true
+     
+
+  variable_section:
+    langProject: [deu, fra, jpn, chs, sve]
+    platformCustom: [iOS, Android, Symbian, Win]
+    langCustom: {kor: KOR, enu: ENU, chs: CHS, deu: DEU, eng: ENG, rus: RUS, cht: CHT, hun: HUN, ptb: PTB, ita: ITA, esp: ESP, csy: CSY, fra: FRA, plk: PLK, jpn: JPN, ptg: PTG, sve: SWE}
+    langBCP47: {rom: ro, jpn: ja, ptg: pt-PT, esp: es, csy: cs, fra: fr, plk: pl, dnk: da, nor: no, nld: nl, rus: ru, eng: en-GB, ptb: pt, hrv: hr, hun: hu, cht: zh-Hant, fin: fi, ita: it, kor: ko, swe: sv, enu: en, deu: de, chs: zh-Hans}
+     
+    #langMsNet: {csy: cs-CZ, fra: fr-FR, plk: pl-PL, esp: es-ES, ptg: pt-PT, rom: ro-RO, jpn: ja-JP, kor: ko-KR, swe: sv-SE, enu: en-US, chs: zh-CN, deu: de-DE, cht: zh-TW, hrv: hr-HR, ptb: pt-BR, hun: hu-HU, fin: fi-FI, ita: it-IT, dnk: da-DK, nor: nb-NO, nld: nl-NL, eng: en-GB, rus: ru-RU}
+    #langJava: {esp: es_ES, plk: pl_PL, fra: fr_FR, csy: cs_CZ, jpn: ja_JP, rom: ro_RO, ptg: pt_PT, deu: de_DE, chs: zh_CN, enu: en_US, swe: sv_SE, kor: ko_KR, rus: ru_RU, eng: en_GB, nld: nl_NL, nor: nb_NO, dnk: da_DK, ita: it_IT, fin: fi_FI, ptb: pt_BR, hrv: hr_HR, cht: zh_TW, hun: hu_HU}
+
+  components:
+    - name: SimpleAppQA_Software   
+      main_owner: Soft
+      content_owner: N/A
+      lang: [deu, fra, jpn, chs]
+      file_rules:
+        #- src\**\Localizable_2024_2009.strings, src\**\%langBCP47%.strings
+        #- ^src\node_modules\**\Localizable_2024_2009.strings
+        #- ^src\js\node_modules\**\Localizable_2024_2009.strings
+          - SimpleApp\SimpleApp\en.lproj\*.strings, SimpleApp\SimpleApp\%langCustom%\*.strings 
+        #- SimpleApp\SimpleApp\en.lproj\*.STRINGS, SimpleApp\SimpleApp\%langBCP47%.lproj\*.STRINGS
+        #- locales\en\*.en.json, locales\%langBCP47%\*.en.json
+        #- locales\en\*.json, locales\%langBCP47%\*.json

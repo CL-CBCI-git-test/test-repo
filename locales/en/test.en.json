@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "@@context": "Issues Strings",
+  "@@contact": "",
+  "Show all issues": "Show all issues",
+  "No issue in current doc": "No issue in current doc.",
+  "Hide all issues": "Hide all issues",
+  "New String Check - json": "New string. It should not be translated in the CL output in MT or PT are not selected for this language. Wed, 20 Feb 19 12:27:48 +0000",
+  "New String Check": "json doesn't accept comments and you should not be commenting even in this way 15502342343668879",
+  "Show sall issues": "Show all issues",
+}
