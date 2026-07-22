@@ -7,7 +7,7 @@ library identifier: 'cBuild_PSL@main', retriever: modernSCM([
   credentialsId: 'L10NCBCI-github-app-psl-ContinuousLocalization',
 ])
  
-devRepoParameters("SimpleAppQA-LP-CBCI-Bogdan")
+devRepoParameters("SimpleAppQA-LP-CBCI-Bogdan") 
  
 node("cl-prd-azure-dynamic-win-vm") {
      cleanWs()
