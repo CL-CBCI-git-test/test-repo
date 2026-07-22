@@ -16,5 +16,5 @@ jobs:
     - name: trigger single Job
       run: >
         curl -X POST -u "${{ secrets.JENKINS_TRIGGER_USER }}:${{ secrets.JENKINS_TRIGGER_TOKEN }}"
-        ${{ env.JENKINS_ROOT}}/${{ env.ORG_NAME }}/job/${{ env.REPO_NAME }}/job/master/build\?delay=\0
+        ${{ env.JENKINS_ROOT}}/${{ env.ORG_NAME }}/job/${{ env.REPO_NAME }}/job/master/buildWithParameters?delay=0
         
