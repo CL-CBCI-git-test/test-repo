@@ -12,9 +12,9 @@ common:
     maintainer: [sprysab]
     ignore_this_branch: false
     multiple_release: false
-    auto_merge_pr: true
+    auto_merge_pr: false
     auto_squash_pr: false
-    auto_approve_pr: true
+    auto_approve_pr: false
     pr_tags: ['FUS-113952']
     #pr_tags: ['[Translations]', '[RFI Detail]', '[Company/List] ']
     #pr_tags: ['Translations: ', '[RFI Detail]', '[Company/List] ']
