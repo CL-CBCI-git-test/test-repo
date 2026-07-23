@@ -21,8 +21,8 @@ Localizable.strings   		test
   Copyright © 2016 Autodesk. All rights reserved.
 */
 
-"ErrorAlertOKButton"="«ÖK10»";
-"ErrorAlertOKButton"="«ÖK10»";
+"ErrorAlertOKButton"="«ÖK»";
+"ErrorAlertOKButton"="«ÖK»";
 
 // Error
 "No Internet" = "«Ćänn't Ćönnnéćtt tö BIM 360 Đöćš»";

@@ -21,11 +21,11 @@ Localizable.strings   		test
   Copyright © 2016 Autodesk. All rights reserved.
 */
 
-"ErrorAlertOKButton"="OK10";
-"ErrorAlertOKButton"="OK10";
+"ErrorAlertOKButton"="OK";
+"ErrorAlertOKButton"="OK";
 
 // Error
-"No Internet" = "BIM 360 Docs に接続できません";
+"No Internet" = "Can't Connect to BIM 360 Docs";
 "No Internet Reason" = "ネットワークを確認して、もう一度試してください。";
 
 "Authentication Failed" = "サイン インできません";
