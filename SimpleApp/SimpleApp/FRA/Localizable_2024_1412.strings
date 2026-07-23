@@ -21,11 +21,11 @@ Localizable.strings   		test
   Copyright © 2016 Autodesk. All rights reserved.
 */
 
-"ErrorAlertOKButton"="OK10";
-"ErrorAlertOKButton"="OK10";
+"ErrorAlertOKButton"="OK";
+"ErrorAlertOKButton"="OK";
 
 // Error
-"No Internet" = "Impossible de se connecter à BIM 360 Docs";
+"No Internet" = "Can't Connect to BIM 360 Docs";
 "No Internet Reason" = "Vérifiez votre réseau et réessayez.";
 
 "Authentication Failed" = "Connexion impossible";
