@@ -7,7 +7,7 @@
        Localizable.strings  
 	   Localizable.strings
 	    Localizable.strings   
-Localizable.strings   		test3
+Localizable.strings   		test345
     Localizable.strings
 	Localizable.stringsnew
 	Localizable.strings  
@@ -21,7 +21,7 @@ Localizable.strings   		test3
   Copyright © 2016 Autodesk. All rights reserved.
 */
 
-"ErrorAlertOKButton"="OKAY567";
+"ErrorAlertOKButton"="OKAY5678";
 "ErrorAlertOKButton"="OKAY5";ddff
 
 // Error
