@@ -7,7 +7,7 @@
        Localizable.strings  
 	   Localizable.strings
 	    Localizable.strings   
-Localizable.strings   		test345
+Localizable.strings   		test12
     Localizable.strings
 	Localizable.stringsnew
 	Localizable.strings  
@@ -21,8 +21,8 @@ Localizable.strings   		test345
   Copyright © 2016 Autodesk. All rights reserved.
 */
 
-"ErrorAlertOKButton"="OKAY5678";
-"ErrorAlertOKButton"="OKAY5";ddff
+"ErrorAlertOKButton"="OKAY23456789";
+"ErrorAlertOKButton"="OKAY9";ddff
 
 // Error
 "No Internet" = "Verbindung zu BIM 360 Docs nicht möglich";

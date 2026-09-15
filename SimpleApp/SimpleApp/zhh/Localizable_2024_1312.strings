@@ -21,8 +21,8 @@ Localizable.strings   		test
   Copyright © 2016 Autodesk. All rights reserved.
 */
 
-"ErrorAlertOKButton"="OK";
-"ErrorAlertOKButton"="OK";ddff
+"ErrorAlertOKButton"="確定";
+"ErrorAlertOKButton"="確定";ddff
 
 // Error
 "No Internet" = "Can't Connect to BIM 360 Docs";
@@ -32,7 +32,7 @@ Localizable.strings   		test
 "Authentication Failed Reason" = "Username or password is not valid, or your account hasn't subscribed to BIM 360 Docs.";
 "Invalid Account" = "Can't Sign In";
 "Invalid Account Reason" = "Sorry, your account is not valid. Please contact the project admin.";
-"Inactive Account Reason" = "Your account is not active. If you believe you have received this message in error, please contact your project administrator.";
+"Inactive Account Reason" = "您的帳戶正處於閒置狀態。如果您認為自己錯誤收到此訊息，請聯絡專案管理員。";
 
 "Request Data Failed" = "Sync Error";
 "Request Data Failed Reason" = "There might be conflicts of data on the server, or you don't have appropriate permission.";
@@ -48,29 +48,29 @@ Localizable.strings   		test
 "Please Login Reason" = "Authentication has expired. Please sign in again.";
 
 // Need re-sign in
-"Sign In Title" = "Sign in";
+"Sign In Title" = "登入";
 "Re-Sign In Reason" = "You have been signed out due to no activities for a long time.";
 
 
 // Project list
-"Select All" = "Select All";
+"Select All" = "全部選取";
 "Select None" = "Select None";
-"All" = "All";
-"None" = "None";
+"All" = "全部";
+"None" = "無";
 "folders and files info" = "%@ and %@";
-"Options" = "Options";
+"Options" = "選項";
 "By " = "By ";
 "By Name" = "By Name";
 "By Last Modified" = "By Last Modified";
-"Name" = "Name";                    // Remove 'By'
+"Name" = "名稱";                    // Remove 'By'
 "Last Modified" = "Last Modified";  // Remove 'By'
 
-"Edit" = "Edit";
-"Done" = "Done";
+"Edit" = "編輯";
+"Done" = "完成";
 "removeAllTitle" = "Remove From Device";
-"Remove" = "Remove";
+"Remove" = "移除";
 "Tap docs to download or remove from device" = "Tap docs to download or remove from device";
-"Download" = "Download";
+"Download" = "下載";
 "Remove from device" = "Remove from device";
 "removeAllQuestion" = "Are you sure you want to delete the selected documents?";
 "cannotRemoveTitle" = "Cannot Remove From Device";
@@ -80,29 +80,29 @@ Localizable.strings   		test
 "Open in" = "Open in ...";
 
 // left side panel
-"logout" = "Sign Out";
+"logout" = "登出";
 "logoutQuestion" = "Are you sure you want to sign out?";
-"No" = "No";
-"Yes" = "Yes";
-"OK" = "OK";
-"Cancel" = "Cancel";
-"Back" = "Back";
+"No" = "否";
+"Yes" = "是";
+"OK" = "確定";
+"Cancel" = "取消";
+"Back" = "返回";
 "LIBRARY"="LIBRARY";
-"SUPPORT"="SUPPORT";
-"Plans"="Plans";
-"Shop Drawings" = "Shop Drawings";
-"Files"="Files";
-"Getting Started"="Getting Started";
-"Help"="Help";
-"About"="About";
-"Profile"="Profile";
-"Settings"="Settings";
+"SUPPORT"="支援";
+"Plans"="計劃";
+"Shop Drawings" = "施工圖";
+"Files"="檔案";
+"Getting Started"="開始使用";
+"Help"="說明";
+"About"="關於";
+"Profile"="個人檔案";
+"Settings"="設定";
 "View Settings"="View Settings";
-"Sync"="Sync";
-"Alerts"="Alerts";
+"Sync"="同步";
+"Alerts"="警示";
 "Last sync,"="Last sync,";
 "Syncing..."="Syncing...";
-"Last updated"="Last updated";
+"Last updated"="上次更新時間";
 "connection_lost_error_msg"="No internet connection";
 
 // Util time change
@@ -116,30 +116,30 @@ Localizable.strings   		test
 "Load sheet unsuccessfully message" = "This page cannot be displayed";
 
 // Not enough storage
-"Ignore" = "Ignore";
-"Settings" = "Settings";
+"Ignore" = "忽略";
+"Settings" = "設定";
 "NotEnoughStorageTitle" = "Not Enough Storage";
 "NotEnoughStorageSpace" = "There is not enough available storage to download documents. You can manage your storage in Settings.";
 
 // Empty Folder Message.
-"This folder is empty" = "This folder is empty";
+"This folder is empty" = "此資料夾為空白";
 "No plans message with linebreak" = "No plans have been added\n to this project";
 "No files message with linebreak" = "No files have been added\n to this project";
 "No shop drawings message with linebreak" = "No shop drawings have been added\n to this project";
 
 // Issue list
-"current"="current";
-"not current"="not current";
+"current"="目前";
+"not current"="非目前";
 "Answered by: "="Answered by: ";
-"To: "="To: ";
+"To: "="至： ";
 "Created by: "="Created by: ";
 "Issue #%d is not listed due to filters"="Issue #%d is not listed due to filters";
 "The new issue is not listed due to filters"="The new issue is not listed due to filters";
 "Reset Filters"="Reset Filters";
-"Dismiss"="Dismiss";
-"Loading..."="Loading...";
+"Dismiss"="關閉";
+"Loading..."="正在載入…";
 "Some issues failed to sync"="Some issues failed to sync";
-"Updated at"="Updated at";
+"Updated at"="更新時間：";
 
 //  PushPin tooltip
 "Tap to place a new issue" = "Tap to place a new issue";
@@ -150,60 +150,60 @@ Localizable.strings   		test
 "Select what you’d like to download now. New sets will automatically download, based on your settings." = "Select what you’d like to download now. New versions will automatically download, based on your settings.";
 "Remove From Device" = "Remove From Device";
 "Some docs are downloaded to your device. Do you want to remove or keep them?" = "Some docs are downloaded to your device. Do you want to remove or keep them?";
-"Keep" = "Keep";
+"Keep" = "保留";
 
 //3G warning based on global setting
 "On cellular network." = "On cellular network.";
 "Do you want to download now or wait until you are back on Wi-Fi?" = "Do you want to download now or wait until you are back on Wi-Fi?";
 "Wait until I'm on Wi-Fi" = "Wait until I'm on Wi-Fi";
-"Download now" = "Download now";
+"Download now" = "立即下載";
 
 // Switch Set or Version
 "Current Set"="Most Recent Set";
-"V%d"="V%d";// show current version(for exzample: Version 1 or Version 2) on top bar
+"V%d"="v%d";// show current version(for exzample: Version 1 or Version 2) on top bar
 "This is not the current version."="This is not the current version.";
 
 // Set List
-"All Documents" = "All Documents";
+"All Documents" = "所有文件";
 
 // Issue status
-"open" = "Open";
-"draft" = "Draft";
-"answered" = "Answered";
-"closed" = "Closed";
+"open" = "開啟";
+"draft" = "草稿";
+"answered" = "已回答";
+"closed" = "已關閉";
 "unresolved"="Unresolved";
 
 // New Display ID
-"NEW" = "NEW";
+"NEW" = "新建";
 
 // Badge text
-"New"="New";
-"Updated"="Updated";
+"New"="新增";
+"Updated"="已更新";
 
 //Issue detail form property IDs
 "ID" = "ID";
-"Title" = "Title";
-"Description" = "Description";
-"Pinned to" = "Pinned to";
+"Title" = "標題";
+"Description" = "描述";
+"Pinned to" = "釘選至";
 "Author" = "Author";
-"Assigned to" = "Assigned to";
-"Due Date" = "Due Date";
-"Status" = "Status";
-"Updated At" = "Updated At";
-"Created At" = "Created At";
+"Assigned to" = "指派對象：";
+"Due Date" = "到期日";
+"Status" = "狀態";
+"Updated At" = "更新時間";
+"Created At" = "建立時間";
 "Closed By" = "Closed By";
 "Closed At" = "Closed At";
-"Attachments" = "Attachments";
-"Comments" = "Comments";
-"Official Response" = "Official Response";
+"Attachments" = "附件";
+"Comments" = "註釋";
+"Official Response" = "官方回應";
 "Answered By" = "Answered By";
 "Anwered Date" = "Anwered Date";
 
-"Save" = "Save";
+"Save" = "儲存";
 "Create new issue as" = "Create new issue as";
-"New Issue" = "New Issue";
+"New Issue" = "新問題";
 "Issue #" = "Issue #";
-"Unspecified" = "Unspecified";
+"Unspecified" = "未指定";
 "Tap to enter a title" = "Tap to enter a title";
 "Describe the issue or question" = "Describe the issue or question";
 "Provide an official response" = "Provide an official response";
@@ -211,26 +211,26 @@ Localizable.strings   		test
 //Due date
 "Past due since" = "Past due since";
 "Past due yesterday" = "Past due yesterday";
-"Due today" = "Due today";
+"Due today" = "今天到期";
 "Due tomorrow" = "Due tomorrow";
-"Due on" = "Due on";
-"Closed today" = "Closed today";
+"Due on" = "到期日：";
+"Closed today" = "於今天關閉";
 "Closed yesterday" = "Closed yesterday";
-"Closed on" = "Closed on";
+"Closed on" = "關閉日期";
 
 // Properties
 "Unknown Object Name" = "Unknown Object Name";
-"Other" = "Other";
+"Other" = "其他";
 
 // About no permission
 "Welcome to BIM 360 Docs" = "Welcome to BIM 360 Docs";
 "Once documents have been shared with you, you’ll see them here" = "Once documents have been shared with you, you’ll see them here";
-"Learn more" = "Learn more";
+"Learn more" = "進一步了解";
 "Nothing has been shared with you yet" = "Nothing has been shared with you yet";
 
 //fix
-"Created by"="Created by";
-"on" = "on";
+"Created by"="建立者";
+"on" = "建立時間";
 "Answered by: %@" ="Answered by: %@";
 "To: %@" = "To: %@";
 "Created by: %@ on %@" = "Created by: %@ on %@";
@@ -239,8 +239,8 @@ Localizable.strings   		test
 "Closed by %@ on %@" = "Closed by %@ on %@";
 "Will be shown as answered by you" = "Will be shown as answered by you";
 "Type your official response..." = "Type your official response...";
-"Mark as Closed" = "Mark as Closed";
-"Mark as Answered" = "Mark as Answered";
+"Mark as Closed" = "標記為已關閉";
+"Mark as Answered" = "標記為已回答";
 "Select a User" = "Select a User";
 "MMM d" = "MMM d";
 "h:mm a"="h:mm a";
@@ -248,40 +248,40 @@ Localizable.strings   		test
 
 // Issue filters
 "Any Status"="Any Status";
-"Anyone"="Anyone";
-"Assigned to me"="Assigned to me";
-"Assignee"="Assignee";
+"Anyone"="任何人";
+"Assigned to me"="已指派給我";
+"Assignee"="獲指派者";
 
 //NMIssuePagerViewController
-"Information"="Information";
+"Information"="資訊";
 
 //NMAddIssueCommentView
 "Type to add a Comment" = "Type to add a comment...";
 "Select an Assignee" = "Select an Assignee";
 "No User" = "No User";
 // For issue location
-"Location" = "Location";
-"Tap to add location" = "Tap to add location";
+"Location" = "位置";
+"Tap to add location" = "點選以加入位置";
 
 // offline issue
-"Delete" = "Delete";
-"Retry" = "Retry";
-"Discard Changes"="Discard Changes";
+"Delete" = "刪除";
+"Retry" = "重試";
+"Discard Changes"="捨棄變更";
 
 // Issue errors
 "Failed to Sync"="Failed to Sync";
 
 //markup
 "Show Content" = "Show Content"; // The content means issues and markups from the file.
-"Issues" = "Issues";
-"Markups" = "Markups";
+"Issues" = "問題";
+"Markups" = "標記";
 "Mark as Open" = "Mark as Open";
-"Hide" = "Hide";
-"Show" = "Show";
+"Hide" = "隱藏";
+"Show" = "顯示";
 "%@ at %@" = "%@ at %@"; // somebody create a markup on a date.     Eg: "yan feng at Mar 4, 12:32 PM"
-"Close the markup" = "Close the markup";
+"Close the markup" = "關閉標記";
 "Confirm markup to be close" = "You can not reopen the markup after it is closed. Are you sure you want to close it?";
-"Close" = "Close"; // e.g. Cancel or Close
+"Close" = "關閉"; // e.g. Cancel or Close
 "Failed to close this markup" = "Failed to close this markup";
 
 //deep link alert msg
@@ -294,14 +294,14 @@ Localizable.strings   		test
 "Project Not Found" = "Project Not Found";
 "Document Not Found" = "Document Not Found";
 "Can't Load Document" = "Can't Load Document";
-"Issue Not Found" = "Issue Not Found";
+"Issue Not Found" = "找不到問題";
 "Can't Show Issue Pin" = "Can't Show Issue Pin";
 "Can't Show Issue Pin message"  = "The issue is not visible on this document due to the current filter settings or displaying document version.";
 "No Description" = "No Description";
 
 //Issue Creator filters
 "Created by Me" = "Created by me";
-"Creator" = "Creator";
+"Creator" = "建立者";
 "Created by %@" = "Created by %@";
 "Select an Creator" = "Select an Creator";
 "Specify a user" = "Specify a user";
@@ -326,12 +326,12 @@ Localizable.strings   		test
 "Assigned to %@" = "Assigned to %@";
 "No Filters" = "No Filters";
 "View Options" = "View Options";
-"Me" = "Me";
+"Me" = "我";
 
 // Application Permissions
 "Can't Access %@" = "Can't Access %@";
 "Please enable %@ in this app's iOS settings." = "Please enable %@ in this app's iOS settings.";
-"Photos" = "Photos";
-"Camera" = "Camera";
+"Photos" = "相片";
+"Camera" = "相機";
 
 // New strings
