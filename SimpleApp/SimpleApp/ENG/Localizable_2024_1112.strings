@@ -7,7 +7,7 @@
        Localizable.strings  
 	   Localizable.strings
 	    Localizable.strings   
-Localizable.strings   		test345
+Localizable.strings   		test12
     Localizable.strings
 	Localizable.stringsnew
 	Localizable.strings  
@@ -90,7 +90,7 @@ Localizable.strings   		test345
 "LIBRARY"="LIBRARY";
 "SUPPORT"="SUPPORT";
 "Plans"="Plans";
-"Shop Drawings" = "Shop Drawings";
+"Shop Drawings" = "Construction Drawings";
 "Files"="Files";
 "Getting Started"="Getting Started";
 "Help"="Help";
@@ -225,7 +225,7 @@ Localizable.strings   		test345
 // About no permission
 "Welcome to BIM 360 Docs" = "Welcome to BIM 360 Docs";
 "Once documents have been shared with you, you’ll see them here" = "Once documents have been shared with you, you’ll see them here";
-"Learn more" = "Learn more";
+"Learn more" = "Learn More";
 "Nothing has been shared with you yet" = "Nothing has been shared with you yet";
 
 //fix
@@ -274,7 +274,7 @@ Localizable.strings   		test345
 //markup
 "Show Content" = "Show Content"; // The content means issues and markups from the file.
 "Issues" = "Issues";
-"Markups" = "Markups";
+"Markups" = "Mark-ups";
 "Mark as Open" = "Mark as Open";
 "Hide" = "Hide";
 "Show" = "Show";
