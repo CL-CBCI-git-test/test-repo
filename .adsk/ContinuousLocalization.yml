@@ -13,7 +13,8 @@ common:
     ignore_this_branch: false
     multiple_release: false
     auto_merge_pr: false
-    auto_squash_pr: false
+    auto_squash_pr: true
+    enable_auto_merge_pr_button: true
     auto_approve_pr: false
     pr_tags: ['FUS-113952']
     #pr_tags: ['[Translations]', '[RFI Detail]', '[Company/List] ']
